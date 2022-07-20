@@ -1,0 +1,16 @@
+IDE:
+  mainWindow:
+    detached: !QVariantMap
+      documents-dock: ""
+      help-dock: ""
+      post-dock: ""
+    geometry: AdnQywADAAAAAAAAAAAAJQAABVUAAAL/AAAAAgAAACUAAAVTAAAC/QAAAAAAAAAABVYAAAACAAAAJQAABVMAAAL9
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF4A////AAAAAQAAAX0AAAKo/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFQAAAI0AAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAKMAAAIaAAAATAD///8AAAPUAAACqAAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+  postWindow:
+    lineWrap: true
+  recentDocuments: !QVariantList
+    - /home/roger/Dropbox/LOOPIER/recordings/i.scd
+    - /home/roger/.local/share/SuperCollider/downloaded-quarks/SuperDirt/library/default-synths-extra.scd
+    - /home/roger/Dropbox/LOOPIER/code/synthdefs/synthdef-fm7-tidal.scd
+    - /home/roger/Dropbox/LOOPIER/code/synthdefs/synthdef-reslab.scd
+    - /home/roger/Dropbox/LOOPIER/code/synthdefs/synthdef-tidal.scd

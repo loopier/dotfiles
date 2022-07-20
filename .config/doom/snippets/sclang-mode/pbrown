@@ -1,0 +1,5 @@
+# -*- mode: sclang -*-
+# name: pbrown
+# key: pb
+# --
+Pbrown(${}, ${1})$0

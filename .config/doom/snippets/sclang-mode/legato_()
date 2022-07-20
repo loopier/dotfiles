@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: legato_()
+# key: leg
+# --
+legato_($0);

@@ -1,0 +1,6 @@
+# -*- mode: sclang -*-
+# name: pchain-instrument
+# key: pci
+# --
+
+Pbind() <> Pbind(\instrument, \\${})$0

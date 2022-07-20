@@ -1,0 +1,8 @@
+# key: pdef
+# name: pdef
+# --
+(
+Pdef(\\master, Ppar([
+
+])).play.quant_(1);
+)

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: degree_([])
+# key: deg
+# --
+degree_([$0].pseq(inf));

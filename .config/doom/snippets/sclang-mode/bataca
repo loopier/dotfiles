@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: bataca
+# key: bataca
+# --
+Bataca(
+    \kick: nil,
+    \sn: nil,
+    \ch: nil,
+    \oh: nil,
+    \rim: nil,
+    \cym: nil,
+    \bell: nil,
+    \cl: nil,
+    \sh: nil,
+    \ht: nil,
+    \mt: nil,
+    \lt: nil,
+)

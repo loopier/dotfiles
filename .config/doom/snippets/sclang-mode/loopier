@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: loopier
+# key: loopier
+# --
+$0Loopier.boot;
+Loopier.livecode;

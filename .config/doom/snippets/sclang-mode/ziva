@@ -1,0 +1,20 @@
+# key: ziva
+# name: ziva
+# --
+Ziva.boot;
+Ziva.loadSamples("~/loopier/samples");
+Ziva.synths;
+Ziva.sounds;
+Ziva.track(0, \reverbS);
+Ziva.track(1, \reverb);
+Ziva.track(2, \delay);
+Ziva.track(3);
+TempoClock.default.tempo = 120/60;
+~lfo0 = Ziva.lfo(0, \sine, 0.1, 440, 8000);
+~lfo1 = Ziva.lfo(1, \sine, 0.2, 0.1, 2.0);
+
+(
+[
+
+].ziva;
+)

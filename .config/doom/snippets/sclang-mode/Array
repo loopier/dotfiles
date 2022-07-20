@@ -1,0 +1,5 @@
+# -*- mode: sclang -*-
+# name: Array
+# key: arr
+# --
+Array.fill(${}, {|i| $0 })

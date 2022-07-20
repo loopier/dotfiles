@@ -1,0 +1,5 @@
+# -*- mode: sclang -*-
+# name: Array.rand
+# key: arand
+# --
+Array.rand(${}, ${0}, ${1})$0

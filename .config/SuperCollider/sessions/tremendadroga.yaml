@@ -1,0 +1,28 @@
+documents: !QVariantList
+  - /home/roger/Dropbox/loopier/projects/algorave-arselectronica20/seven.scd
+  - /home/roger/Dropbox/loopier/code/quarks/LoopierPatterns/Tocata.sc
+  - /home/roger/Dropbox/loopier/projects/algorave-arselectronica20/innocent-house.scd
+  - /home/roger/Dropbox/loopier/code/quarks/DrumPattern/DrumPattern.sc
+editors: !QVariantMap
+  elements: !QVariantList
+    - !QVariantList
+      - !QVariantMap
+        documentIndex: 1
+        position: 13
+      - !QVariantMap
+        documentIndex: 2
+        position: 944
+      - !QVariantMap
+        documentIndex: 3
+        position: 9178
+      - !QVariantMap
+        documentIndex: 0
+        position: 10508
+  state: AAAA/wAAAAEAAAABAAADXgH/////AQAAAAEA
+mainWindow:
+  detached: !QVariantMap
+    documents-dock: ""
+    help-dock: ""
+    post-dock: ""
+  geometry: AdnQywADAAAAAAIYAAAALQAAB38AAASvAAACGAAAAEoAAAd/AAAErwAAAAAAAAAAB4AAAAIYAAAASgAAB38AAASv
+  state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAGAA////AAAAAQAAAb8AAAQ1/AIAAAAB/AAAABcAAAQ1AAAAagEAABv6AAAAAAEAAAAC+wAAABIAcABvAHMAdAAtAGQAbwBjAGsBAAAAAP////8AAADFAP////sAAAASAGgAZQBsAHAALQBkAG8AYwBrAQAABG0AAAMTAAABLQD///8AAAOoAAAENQAAAAEAAAACAAAAAQAAAAL8AAAAAA==

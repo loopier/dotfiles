@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/roger/.config/doom'
+let g:netrw_dirhist_4='/home/roger/.doom.d'
+let g:netrw_dirhist_3='/home/roger/Downloads/vstplugin-v0.5-test4'
+let g:netrw_dirhist_2='/home/roger/.config'
+let g:netrw_dirhist_1='/home/roger/Dropbox/loopier/code/quarks/LoopierPatterns'
+let g:netrw_dirhist_0='/home/roger/Dropbox/loopier/code/quarks/LoopierPatterns/HelpSource'
+let g:netrw_dirhist_9='/home/roger/Dropbox/loopier/projects/InC'
+let g:netrw_dirhist_8='/home/roger/Dropbox/loopier/code/synthdefs'
+let g:netrw_dirhist_7='/home/roger/Dropbox/loopier/code'
+let g:netrw_dirhist_6='/home/roger/Dropbox/loopier/code/misc'

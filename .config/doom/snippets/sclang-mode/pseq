@@ -1,0 +1,5 @@
+# -*- mode: sclang -*-
+# name: pseq
+# key: pseq
+# --
+[${}].pseq(inf)$0

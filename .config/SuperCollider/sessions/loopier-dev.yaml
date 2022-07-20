@@ -1,0 +1,20 @@
+documents: !QVariantList
+  - /home/roger/Dropbox/loopier/code/quarks/Motif/Motif.sc
+  - /home/roger/Dropbox/loopier/code/quarks/LoopierPatterns/Tocata.sc
+editors: !QVariantMap
+  elements: !QVariantList
+    - !QVariantList
+      - !QVariantMap
+        documentIndex: 1
+        position: 8288
+      - !QVariantMap
+        documentIndex: 0
+        position: 219
+  state: AAAA/wAAAAEAAAABAAAAZAH/////AQAAAAEA
+mainWindow:
+  detached: !QVariantMap
+    documents-dock: ""
+    help-dock: ""
+    post-dock: ""
+  geometry: AdnQywADAAAAAAAAAAAALQAAA70AAASvAAAAAAAAAEoAAAO9AAAErwAAAAAAAAAAB4AAAAAAAAAASgAAA70AAASv
+  state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAGAA////AAAAAQAAAVoAAAQ1/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFwAAA9UAAABOAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAA+0AAABfAAAATgD///8AAAJjAAAENQAAAAEAAAACAAAAAQAAAAL8AAAAAA==

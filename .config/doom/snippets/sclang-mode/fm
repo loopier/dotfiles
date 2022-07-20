@@ -1,0 +1,42 @@
+# key: fm
+# name: fm
+# --
+(
+// TempoClock.default.tempo = 91/60;
+TempoClock.default.tempo = rrand(40,150).debug("tempo: ")/60;
+z = # a,e,i,o,u,y = Array.fill(11, {|x|
+	var sym = ("op"++x).asSymbol;
+	Tocata.synth(sym, \fmop);
+	currentEnvironment.at(sym);
+});
+
+l = Array.rand(16, 0.1, 1);
+m = Motif.rand(16);
+n = m.notes;
+d = m.durs;
+
+z.do{|x| x.quant_(1)};
+z.do{|x| x.legato_(0.5)};
+z.do{|x| x.root_(0)};
+z.do{|x| x.scale_(Scale.spanish)};
+// z.do{|x| x.stop; x.reset};
+// z.do{|x| x.dur_(u.concat.pseq(inf) * 4)};
+z.do{|x| x.dur_(1)};
+z.do{|x| x.atkt_(0.01)};
+z.do{|x| x.decl_(0.4)};
+z.do{|x| x.susl_(0.6)};
+z.do{|x| x.relt_(0.15)};
+)
+(
+a.dur_(1);
+e.dur_(1);
+i.dur_(1);
+a.mod_([a.ndef]);
+e.mod_([e.ndef]);
+i.mod_([i.ndef]);
+a.modamt_([0]);
+e.modamt_([0]);
+i.modamt_([0]);
+)
+
+z.do{|x| x.r_(\r)};

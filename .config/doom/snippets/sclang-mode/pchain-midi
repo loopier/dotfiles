@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: pchain-midi
+# key: pcm
+# --
+
+Pbind() <> Pbind(\type, \midi, \midiout, MIDIOut(0), \chan, 0)$0

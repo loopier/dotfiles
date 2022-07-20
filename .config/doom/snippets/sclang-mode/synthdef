@@ -1,0 +1,23 @@
+# key: synthdef
+# name: synthdef
+# --
+SynthDef(\asynth, {
+    var out = \out.kr(0);
+    var pan = \pan.kr(0);
+    var freq = \freq.kr(440);
+    var amp = \amp.kr(1) * (-10.dbamp);
+    var atk = \atk.kr(0.01);
+    var dec = \dec.kr(0.3);
+    var sus = \sus.kr(0.5);
+    var rel = \rel.kr(1.0);
+    var gate = \gate.kr(1);
+    var env = EnvGen.ar(
+        Env.adsr(atk, dec, sus, rel),
+        gate: gate,
+        timeScale: timescale,
+        doneAction: 2
+        );
+    var sig, fb;
+    sig = SinOsc.ar(freq);
+    Out.ar(out, Pan2.ar(sig * env * amp, pan));
+}).add;

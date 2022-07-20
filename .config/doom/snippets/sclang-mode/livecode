@@ -1,0 +1,51 @@
+# -*- mode: sclang -*-
+# name: livecode
+# key: livecode
+# --
+
+Loopier.boot;
+Loopier.livecode;
+
+// MIDIClient.init;
+// m = MIDIOut(0);
+
+TempoClock.default.tempo = 60/60;
+(
+~verb = Bus.audio(s,2);
+~delay = Bus.audio(s,2);
+~lpf = Bus.audio(s,2);
+Ndef(\rvb).play;
+Ndef(\delay).play;
+Ndef(\lpf).play;
+)
+(
+Ndef(\rvb, {var in  = In.ar(~verb); in + GVerb.ar(in, mul:0.25)});
+Ndef(\delay, {var in  = In.ar(~delay); [in , AllpassC.ar(in, 4, 0.25, 3)]});
+Ndef(\lpf, {RLPF.ar(In.ar(~lpf), SinOsc.ar(0.01).range(250,5000))!2});
+~sina = Ndef(\sina, {SinOsc.kr(0.01)});
+~sine = Ndef(\sine, {SinOsc.kr(0.05)});
+~sini = Ndef(\sini, {SinOsc.kr(0.01).range(1.0,2.0)});
+~sawa = Ndef(\sawa, {LFSaw.kr(0.01).range(1.0,2.0)});
+~lina = Ndef(\lina, {XLine.kr(1.0,2.0,60)});
+
+~scale = Scale.bhairav;
+~bass = Pbind() <> Pbind(\instrument, \velobass, \scale, ~scale);
+~k = Pbind() <> Pbind(\type, \sample, \sound, ~tri808kick, \n, 0, \legato, 0.5);
+~sn = Pbind() <> Pbind(\type, \sample, \sound, ~avlsnare, \channels, 1, \n, 0, \legato, 0.5);
+~h = Pbind() <> Pbind(\type, \sample, \sound, ~avlhat, \channels, 1, \n, 0, \legato, 0.5);
+~rim = Pbind() <> Pbind(\type, \sample, \sound, ~avlside, \channels, 1, \n, 0, \legato, 0.5);
+~cl = Pbind() <> Pbind(\type, \sample, \sound, ~avlclap, \channels, 1, \n, 0, \legato, 0.5);
+~cym = Pbind() <> Pbind(\type, \sample, \sound, ~avlcym, \channels, 1, \n, 0, \legato, 0.5);
+b = Pdefn(\brown, Pbrown());
+w = Pdefn(\white, Pwhite());
+r = \r;
+
+a = Pbind() <> Pbind(\type, \sample, \sound, ~lentejas, \n, 0, \scale, ~scale);
+e = Pbind() <> Pbind(\type, \sample, \sound, ~lentejas, \n, 1, \scale, ~scale);
+i = Pbind() <> Pbind(\type, \sample, \sound, ~lentejas, \n, 2, \dur, 24, \scale, ~scale);
+)
+(
+Pdef(\master, Ppar([
+	nil
+])).play.quant_(1);
+)

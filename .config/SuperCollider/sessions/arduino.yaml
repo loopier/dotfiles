@@ -1,0 +1,21 @@
+documents: !QVariantList
+  - /home/roger/Dropbox/loopier/projects/arduino/aerduino.scd
+  - /home/roger/Dropbox/loopier/code/examples/example-arduino.scd
+  - ""
+editors: !QVariantMap
+  elements: !QVariantList
+    - !QVariantList
+      - !QVariantMap
+        documentIndex: 0
+        position: 785
+      - !QVariantMap
+        documentIndex: 1
+        position: 366
+  state: AAAA/wAAAAEAAAABAAAAZAH/////AQAAAAEA
+mainWindow:
+  detached: !QVariantMap
+    documents-dock: ""
+    help-dock: ""
+    post-dock: ""
+  geometry: AdnQywADAAAAAAAAAAAALQAAB38AAAQ3AAAAAAAAAEoAAAd/AAAENwAAAAAAAAAAB4AAAAAAAAAASgAAB38AAAQ3
+  state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAGAA////AAAAAQAAAmcAAAO9/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFwAAAsgAAABOAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAuAAAAD0AAAATgD///8AAAUYAAADvQAAAAEAAAACAAAAAQAAAAL8AAAAAA==

@@ -1,0 +1,147 @@
+#!/bin/sh
+
+export HISTFILE=$HOME/.history
+export HISTSIZE=1000
+export SAVEHIST=1000
+
+[[ $- != *i* ]] && return
+
+stty -ixon
+
+if [[ -n $DISPLAY ]]; then
+    export TERM=screen-256color
+fi
+
+setxkbmap gb extd -option caps:escape
+if [[ $TTY == "/dev/tty1" ]]; then
+    echo "networks"
+    ip link | awk -F: '/: \w+:/ {print $2}'
+fi
+
+# export PATH="${PATH}:$HOME/.local/bin"
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$PATH:$HOME/.local/bin"
+fi
+
+alias p='pwd'
+alias l='ls'
+alias j='jobs'
+
+alias ll='ls -lh'
+alias la='ls -A'
+alias lal='ls -lAh'
+alias lla='ls -lAh'
+
+alias du='du -sh'
+alias less='less -R'
+# alias emacs='emacs -nw'
+# alias e='emacsclient -n'
+
+alias kra='kra2jpg *.kra'
+
+
+case `uname -s` in
+    OpenBSD)
+        alias ls='colorls -G'
+        alias top='top -s 1'
+        alias pgrep='pgrep -lf'
+        alias df='df -hk'
+
+        alias pkg_add='doas pkg_add'
+        alias pkg_delete='doas pkg_delete'
+
+        alias rcctl='doas rcctl'
+
+        alias zzz='doas zzz'
+        alias reboot='doas reboot'
+        alias poweroff='doas shutdown -p now'
+        ;;
+
+    Linux)
+        alias ls='ls --color=always'
+        alias top='top -d 1'
+        alias grep='grep --color=auto'
+        alias pgrep='pgrep -fa'
+        alias df='df -h'
+
+        alias free='free -h'
+
+        alias open="xdg-open"
+        alias reboot='sudo reboot'
+        alias poweroff='sudo poweroff'
+
+        case $DISTRO in
+            void)
+                alias zzz='sudo zzz'
+                alias xbps-install='sudo xbps-install'
+                alias xbps-remove='sudo xbps-remove'
+                ;;
+
+            arch)
+                alias pacman='sudo pacman'
+                alias zzz='sudo systemctl suspend'
+                ;;
+        esac
+
+        ;;
+
+    FreeBSD)
+        alias ls='ls -G'
+        ;;
+
+    Darwin)
+        export CLICOLOR=1
+        export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+        ;;
+esac
+
+function b {
+	bg %$1
+}
+
+function f {
+	fg %$1
+}
+
+function cd {
+    builtin cd "$@" &&
+        [[ "$-" = *i* ]] && ls
+}
+
+function wdiffo {
+    dwdiff \
+        --no-common \
+        --line-numbers \
+        --less-mode \
+        --color=blue,green \
+        $1 $2 \
+        | less -R
+}
+
+date_format="'+%H:%M %a'"
+
+alias __date="date $date_format"
+alias eudate="TZ=CET date $date_format"
+alias mxdate="TZ=CST6CDT date $date_format"
+alias cadate="TZ=US/Pacific date $date_format"
+alias nmdate="TZ=MST7MDT date $date_format"
+alias nydate="TZ=America/New_York date $date_format"
+alias hkdate="TZ=Asia/Hong_Kong date $date_format"
+alias iedate="TZ=Europe/Dublin date $date_format"
+alias udate="TZ=UTC date $date_format"
+
+# emacs
+# if [ -d "$HOME/.emacs.d/bin" ] ; then
+#     PATH="$PATH:$HOME/.emacs.d/bin"
+# fi
+alias doom='~/.emacs.d/bin/doom'
+# alias remacs='env HOME=~/work/remacs emacs'
+
+function alldates {
+    echo "EU: `eudate`"
+    echo "IE: `iedate`"
+    echo "NY: `nydate`"
+    echo "MX: `mxdate`"
+    echo "HK: `hkdate`"
+    echo "  : `__date`"
+}
