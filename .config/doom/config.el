@@ -37,9 +37,19 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 ;; (setq doom-theme 'doom-henna)
-(setq doom-theme 'doom-one)
+;; (setq doom-theme 'doom-one)
 ;; (setq doom-theme 'doom-snazzy)
 ;; (setq doom-theme 'doom-oceanic-next)
+;; (setq doom-theme 'doom-ayu-mirage)
+
+;; custom background color from KDE's breeze-dark theme
+;; (add-to-list 'default-frame-alist '(foreground-color . "#fcfcfc"))
+;; (add-to-list 'default-frame-alist '(background-color . "#222528"))
+
+;; custom theme
+(add-to-list 'custom-theme-load-path "~/.config/doom/themes")
+(setq doom-theme 'doom-breeze-dark)
+;; (load-theme 'doom-breeze-dark)
 
 ;; dired
 (use-package dired
@@ -72,57 +82,11 @@
 (setq org-capture-templates
       '("w" "work" plain (file "~/Drobpox/org/work.org")
         "* TODO %?\n "))
-; (setq org-roam-buffer-position 'left)
-; ;; (setq org-roam-directory "~/Dropbox/cabeza-remota")
-; (setq org-roam-directory "~/Dropbox/exo")
-; (require 'org-roam-protocol)
-; (setq org-roam-capture-templates
-;       '(("d" "default" plain (function org-roam--capture-get-point)
-;          "%?"
-;          ;; :file-name "%<%Y%m%d>-${slug}"
-;          :file-name "%<%Y%m%d>-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: %^g\n#+date: %<%Y%m%d>\n\n"
-;          :unnarrowed t)
-;         ("i" "ideas" plain (function org-roam--capture-get-point)
-;          "%?"
-;          :file-name "%<%Y%m%d>-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: ideas%^g\n#+date: %<%Y%m%d>\n\n"
-;          :unnarrowed t)
-;         ("t" "pensament" plain (function org-roam--capture-get-point)
-;          "%?"
-;          :file-name "%<%Y%m%d>-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: pensament%^g\n#+date: %<%Y%m%d>\n\n"
-;          :unnarrowed t)
-;         ("p" "paraulari" plain (function org-roam--capture-get-point)
-;          "%?"
-;          :file-name "%<%Y%m%d>-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: paraulari ideas%^g\n#+date: %<%Y%m%d>\n\n"
-;          :unnarrowed t)
-;         ("P" "paraulari" plain (function org-roam--capture-get-point)
-;          "%?"
-;          :file-name "+paraulari-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: paraulari ideas%^g\n#+date: %<%Y%m%d>\n\n"
-;          :unnarrowed t)
-;         ("b" "book" plain (function org-roam--capture-get-point)
-;          "%?"
-;          :file-name "%<%Y%m%d>-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: book%^g\n#+date: %<%Y%m%d>\n\n"
-;          :unnarrowed t)
-;         ("c" "cita" plain (function org-roam--capture-get-point)
-;          "%?"
-;          :file-name "%<%Y%m%d>-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: cita%^g\n#+date: %<%Y%m%d>\n\n"
-;          :unnarrowed t)
-;         ("m" "music" plain (function org-roam--capture-get-point)
-;          "%?"
-;          :file-name "%<%Y%m%d>-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: music%^g\n#+date: %<%Y%m%d>\n\n"
-;          :unnarrowed t)
-;         ("s" "somni" plain (function org-roam--capture-get-point)
-;          "\n%^t\n%?"
-;          :file-name "%<%Y%m%d>-${slug}"
-;          :head "#+title: ${title}\n#+roam_tags: somni\n#+date: %<%Y%m%d>\n"
-;          :unnarrowed t)))
+;; (use-package org-bullets
+;;   :config
+;;   (add-hook 'org-mode-hook (lambda() (org-bullets-mode))))
+;; (setq org-superstar-headline-bullets-list '("⬢" "◆" "▲" "■"))
+(custom-set-faces)
 
 ;; show linked images as inline images
 (require 'org-attach)
@@ -131,6 +95,10 @@
 (setq org-image-actual-width (/ (window-pixel-width) 2))
 ;; (defun org-roam--extract-titles-custom (headline title alias))
 ;; (setq org-roam-title-sources org-roam--extract-titels-custom)
+(custom-set-faces
+ '(org-level-1 ((t (:family "Noto Sans" :foreground "#fcfcfc" :height 100 :weight bold))))
+ '(org-tag ((t (:height 80)))))
+
 (setq org-todo-keyword-faces
       '(("TODO" . org-warning)
         ("ON" . (:foreground "#55CC66" :weight bold))
