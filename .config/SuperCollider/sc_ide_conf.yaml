@@ -103,7 +103,7 @@ IDE:
     useComboBoxWhenSplitting: false
   interpreter:
     autoStart: true
-    configFile: /home/roger/.config/SuperCollider/sclang_conf_tutorial.yaml
+    configFile: /home/r/.config/SuperCollider/sclang_conf_tutorial.yaml
     runtimeDir: ""
     standalone: false
   mainWindow:
@@ -111,20 +111,13 @@ IDE:
       documents-dock: ""
       help-dock: ""
       post-dock: ""
-    geometry: AdnQywADAAAAAAoAAAAAAAAAEX8AAAQ3AAAL4gAAALIAABBhAAAEcQAAAAECAAAAB4AAAAoAAAAAHQAAEX8AAAQ3
-    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAGAA////AAAAAQAAAp0AAAPn/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFwAAAjcAAABOAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAk8AAAGvAAAATgD///8AAATiAAAD5wAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+    geometry: AdnQywADAAAAAAAAAAAAAAAAAoQAAAHkAAAAAQAAAAEAAAKDAAAB4wAAAAAAAAAABQkAAAABAAAAAQAAAoMAAAHj
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF4A////AAAAAQAAAQEAAAG2/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFQAAAKUAAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAALsAAAEQAAAATAD///8AAAGBAAABtgAAAAEAAAACAAAAAQAAAAL8AAAAAA==
   postWindow:
     lineWrap: true
     scrollback: 1000
   recentDocuments: !QVariantList
-    - /home/roger/work/sc-help/Dummy/HelpSource/Classes/Dummy.schelp
-    - /home/roger/loopier/Ziva/synths/synthdef-clarinet.scd
-    - /home/roger/loopier/Ziva/synths/synthdef-brass.scd
-    - /home/roger/work/synthdef-brass.scd
-    - /home/roger/.local/share/SuperCollider/downloaded-quarks/bacalao/HelpSource/Classes/Bacalao.schelp
-    - /home/roger/.local/share/SuperCollider/downloaded-quarks/bacalao/HelpSource/Classes/Arp.schelp
-    - /home/roger/loopier/code/quarks/LoopierPatterns/Pixi.sc
-    - /home/roger/.local/share/SuperCollider/downloaded-quarks/SuperDirt/superdirt_startup.scd
+    - /home/r/Tresors/work/pattern-workshop.scd
   shortcuts:
     editor-copy-line-down: Ctrl+Shift+Down
     editor-go-to-next-empty-line: Alt+Num+Down

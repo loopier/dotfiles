@@ -1,0 +1,17 @@
+[Shortcuts]
+Help[$d]
+KisAssistantTool=A
+KisToolCrop=none
+KisToolSelectContiguous=Shift+W
+KisToolTransform=T
+KritaTransform/KisToolMove=none
+RenameFile[$d]
+insert_keyframe_right=Shift+K
+select_all=none
+set_stabilizer_brush_smoothing=Shift+S
+show_color_history=C
+show_minimal_shade_selector=Shift+M
+show_mypaint_shade_selector=none
+show_snap_options_popup=none
+toggle_assistant=S
+wrap_around_mode=none

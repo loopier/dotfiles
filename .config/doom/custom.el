@@ -42,4 +42,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(ledger-font-posting-account-face ((t (:foreground "gray"))))
+ '(org-level-1 ((t (:family "Noto Sans" :foreground "#fcfcfc" :height 100 :weight bold))))
+ '(org-tag ((t (:height 80)))))

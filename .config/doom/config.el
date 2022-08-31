@@ -31,7 +31,7 @@
 (setq doom-font (font-spec
                  :family "mononoki"
                  ;; :weight 'semi-light
-                 :size 12))
+                 :size 18))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -74,6 +74,7 @@
 
 (map! (:map sclang-mode-map :localleader :n "s s" 'sclang-start))
 
+(map! (:map org-mode-map :n "<return>" 'org-toggle-checkbox))
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (add-to-list 'auto-mode-alist '("\\.txt\\'" . org-mode))
@@ -247,9 +248,9 @@
 
 ;; livecode
 ;; experimental livecoding helper
-(load "/home/roger/loopier/code/emacs-extended/livecode.el")
+(load "/home/r/loopier/code/emacs-extended/livecode.el")
 
-(add-to-list 'load-path "/home/roger/loopier/code/ob-sclang/")
+(add-to-list 'load-path "/home/r/loopier/code/ob-sclang/")
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((sclang . t)))
@@ -299,8 +300,8 @@
 ;; (setq sclang-show-workspace-on-startup nil)
 
 ;; processing
-(setq processing-location "/home/roger/.local/bin/processing-java")
-;; (setq processing-location "/home/roger/.local/bin/processing")
+(setq processing-location "/home/r/.local/bin/processing-java")
+;; (setq processing-location "/home/r/.local/bin/processing")
 (map! (:map processing-mode-map :localleader :n "," 'processing-sketch-run))
 
 ;; email
