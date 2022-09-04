@@ -32,7 +32,7 @@ ToolBarsMovable=Disabled
 
 [Open-with settings]
 CompletionMode=1
-History=vlc,fire,view
+History=firefo,fire,vlc,view
 
 [PreviewSettings]
 Plugins=jpegthumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,appimagethumbnail,exrthumbnail,svgthumbnail,kraorathumbnail,ebookthumbnail,audiothumbnail,djvuthumbnail,cursorthumbnail,opendocumentthumbnail,comicbookthumbnail,directorythumbnail

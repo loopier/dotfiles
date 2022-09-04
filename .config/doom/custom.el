@@ -10,6 +10,12 @@
  '(jdee-db-active-breakpoint-face-colors (cons "#1B2229" "#51afef"))
  '(jdee-db-requested-breakpoint-face-colors (cons "#1B2229" "#98be65"))
  '(jdee-db-spec-breakpoint-face-colors (cons "#1B2229" "#3f444a"))
+ '(ledger-reports
+   '(("bal --exchange €" "bal")
+     ("bal" "%(binary) -f %(ledger-file) bal")
+     ("reg" "%(binary) -f %(ledger-file) reg")
+     ("payee" "%(binary) -f %(ledger-file) reg @%(payee)")
+     ("account" "%(binary) -f %(ledger-file) reg %(account)")))
  '(objed-cursor-color "#ff6c6b")
  '(package-selected-packages '(dashboard))
  '(pdf-view-midnight-colors (cons "#bbc2cf" "#282c34"))
@@ -42,6 +48,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ledger-font-payee-uncleared-face ((t (:foreground "white" :weight bold))))
  '(ledger-font-posting-account-face ((t (:foreground "gray"))))
  '(org-level-1 ((t (:family "Noto Sans" :foreground "#fcfcfc" :height 100 :weight bold))))
  '(org-tag ((t (:height 80)))))
