@@ -1,0 +1,373 @@
+# /bin/bash
+
+# A script to play solo RPG
+# Dependencies: roll - http://matteocorti.github.io/roll/
+
+# TODO: Should create /var/lib/solor-rpg directory to store list files
+# TODO: Check if directory exists, an create files if it doesn't
+
+DICE="1d%"
+MODIFIER=0
+# LISTSPATH=$(pwd)"/resources/lists"
+LISTSPATH="/home/roger/games/solo-rpg/resources/lists"
+VERBOSE=false
+
+getItem() {
+    # local INDEX=$(roll $1 | roll $DICE)
+    local INDEX=$1
+    local LISTNAME=$LISTSPATH/$2
+    local WORD=$(echo $INDEX | xargs -I % sed "%q;d" "${LISTNAME}")
+
+    if [ $VERBOSE = true ] ; 
+    then 
+        echo "roll: $INDEX - $WORD"
+    else
+        echo $WORD
+    fi
+}
+
+getResult() {
+    #; echo "getResult: getting result for '$1'"
+    case $1
+        in
+        action) 
+            local VAL1=$(getItem $(roll 1d%) actions-1)
+            local VAL2=$(getItem $(roll 1d%) actions-2)
+            echo "$VAL1 $VAL2"
+            ;;
+        adventure-character)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL adventure-characters
+            ;;
+        adventure-plot)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL adventure-plotlines
+            ;;
+        character-desc)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL character-descriptors
+            ;;
+        character-id)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL character-identities
+            ;;
+        character-specialties)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL character-specialties
+            ;;
+        character-quirks)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) / 2)
+            getItem $ROLL character-quirks
+            ;;
+        # cthulhu-elements)
+        #     local ROLL=$(expr $(roll $DICE+$MODIFIER))
+        #     getItem $ROLL cthulhu-elements
+        #     ;;
+        cthulhu-verbs)
+            # According to The Solo Investigators Handbook: 
+            # (1d10 * 50) + 1d% + Mythos Points
+            local HUNDREDS=$(expr $(roll 1d10) '*' 50)
+            local ROLL=$(roll 1d%)
+            local RESULT=$(expr $HUNDREDS + $ROLL + $MODIFIER)
+            # echo $HUNDREDS + $ROLL + $MODIFIER
+            # echo $RESULT
+            getItem $RESULT cthulhu-verbs
+            ;;
+        cthulhu-clues)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER) / 2)
+			getItem $ROLL cthulhu-clues
+			;;
+        cthulhu-creature-build)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			# local RESULT=$(getItem $ROLL cthulhu-creature-build)
+			# local REFERENCE=$(cat "$LISTSPATH/cthulhu-creature-build-reference")
+            # echo "$RESULT ($REFERENCE)"
+            echo getItem $ROLL cthulhu-creature-build
+			;;
+        # cthulhu-creature-build-reference)
+			# cat "$LISTSPATH/cthulhu-creature-build-reference"
+			# ;;
+        cthulhu-creature-form)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			getItem $ROLL cthulhu-creature-form
+			;;
+        cthulhu-creature-limbs)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			getItem $ROLL cthulhu-creature-limbs
+			;;
+        cthulhu-creature)
+            # Builds a creature
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            local BUILD=$(getItem $ROLL cthulhu-creature-build)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            local FORM=$(getItem $ROLL cthulhu-creature-form)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            local LIMBS=$(getItem $ROLL cthulhu-creature-limbs)
+            # local BUILD=$(getResult cthulhu-creature-build)
+            # local FORM=$(getResult cthulhu-creature-form)
+            # local LIMBS=$(getResult cthulhu-creature-limbs)
+            echo "$BUILD $FORM $LIMBS"
+            ;;
+        cthulhu-effects-sound)
+            local SOUND_ROLL=$(expr $(roll 1d%) / 4)
+            local LOCATION_ROLL=$(expr $(roll 1d%) / 8)
+            local SOUND=$(getItem $SOUND_ROLL cthulhu-effects-sound)
+            local LOCATION=$(getItem $LOCATION_ROLL cthulhu-effects-sound-locations)
+            echo "$SOUND $LOCATION"
+            ;;
+        cthulhu-effects-visual)
+            # (1d100 + Mythos Points) / 4
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) / 4)
+            getItem $ROLL cthulhu-effects-visual
+            ;;
+        cthulhu-rumours)
+            # 1d100 / 2
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) / 2)
+            getItem $ROLL cthulhu-rumours
+            ;;
+        cthulhu-events)
+            # 1d51 ... 97 and 98 have just 1/100 possibily, others have 2/100
+            DICE="$DICE<=51+$MODIFIER" 
+            local ROLL=$(expr $(roll $DICE) / 2)
+            getItem $ROLL cthulhu-events
+            ;;
+        cthulhu-location-general)
+            DICE=1d10
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-general
+            ;;
+        cthulhu-location-city)
+            DICE=1d20
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-city
+            ;;
+        cthulhu-location-mansion)
+            DICE=1d20
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-mansion
+            ;;
+        cthulhu-location-house)
+            DICE=1d10
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-house
+            ;;
+        cthulhu-location-arctic)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-arctic
+            ;;
+        cthulhu-location-coast)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-arctic
+            ;;
+        cthulhu-location-desert)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-desert
+            ;;
+        cthulhu-location-forest)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-forest
+            ;;
+        cthulhu-location-grassland)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-grassland
+            ;;
+        cthulhu-location-hills)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-hills
+            ;;
+        cthulhu-location-mountain)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-mountain
+            ;;
+        cthulhu-location-swamp)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL cthulhu-location-swamp
+            ;;
+        cthulhu-location-structure)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) / 4)
+            getItem $ROLL cthulhu-location-structure
+            ;;
+        cthulhu-location-monuments)
+            DICE=1d20
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) )
+            getItem $ROLL cthulhu-location-monuments
+            ;;
+        cthulhu-location-landscape-elements)
+            DICE=1d20
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) )
+            getItem $ROLL cthulhu-location-landscape-elements
+            ;;
+        cthulhu-npc-modifiers) 
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) )
+            getItem $ROLL cthulhu-npc-modifiers
+            ;;
+        cthulhu-occupations)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) / 2)
+            getItem $ROLL cthulhu-occupations
+            ;;
+        cthulhu-scenarios)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) / 2)
+            getItem $ROLL cthulhu-scenarios
+            ;;
+        cthulhu-story-danger)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			getItem $ROLL cthulhu-story-danger
+			;;
+        cthulhu-story-development)
+            DICE=1d10
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			getItem $ROLL cthulhu-story-development
+			;;
+        cthulhu-story-dice-roll)
+            DICE=1d10
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			getItem $ROLL cthulhu-story-dice-roll
+			;;
+        cthulhu-story-direction)
+            DICE=1d10
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			getItem $ROLL cthulhu-story-direction
+			;;
+        cthulhu-story-discovery)
+            DICE=1d10
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			local DISCOVERY=$(getItem $ROLL cthulhu-story-discovery)
+			local REQUIERED_SKILL_ROLL=$(getItem $ROLL cthulhu-story-discovery-required-skill-roll)
+            printf "$DISCOVERY\n\n$REQUIERED_SKILL_ROLL"
+			;;
+        cthulhu-story-downtime-disturbance)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+			getItem $ROLL cthulhu-story-downtime-disturbance
+			;;
+        detail-check)
+            local VAL1=$(getItem $(roll 1d%) descriptors-1)
+            local VAL2=$(getItem $(roll 1d%) descriptors-2)
+            echo "$VAL1 $VAL2"
+            ;;
+        enemies)
+            DICE=1d10
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) )
+            getItem $ROLL enemies
+            ;;
+        focus)
+            local ROLL=$(expr $(roll $DICE+$MODIFIER) )
+            getItem $ROLL event-focus
+            ;;
+        special-elements)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL special-elements
+            ;;
+        npc-create)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL une-npc-modifier
+            getItem $ROLL une-npc-noun
+            ;;
+        npc-motivation)
+			local ROLL=$(expr $(roll $DICE+$MODIFIER))
+            getItem $ROLL une-npc-motivation-verb
+            # FIX: roll 3 times, but cannot be from the same column in the nouns list (see une rules)
+            # the file should be divided into the columns in the rules
+            getItem $ROLL une-npc-motivation-noun
+            ;;
+        npc-power-order)
+            getItem une-npc-power-order
+            ;;
+        npc-power-calm)
+            getItem une-npc-power-calm
+            ;;
+        npc-power-standard)
+            getItem une-npc-power-standard
+            ;;
+        npc-power-disarray)
+            getItem une-npc-power-disarray
+            ;;
+        npc-power-caos)
+            getItem une-npc-power-caos
+            ;;
+        aquelarre-profesiones)
+            getItem aquelarre-profesiones
+            ;;
+        # custom)
+        #     getItem aquelarre-profesiones
+        #     ;;
+        esac
+}
+
+
+# flag argument parser
+while test $# -gt 0; do
+    case "$1" in
+        -a|--action) LIST=action;;
+        --character-quirks) LIST=character-quirks;;
+        # FIX: Doesn't work if put after the list
+        -d|--dice) shift ; DICE=$1 ;;
+        # -l|--list) shift ; LIST=$1 ;;
+        -l|--list-names) shift ; ls $LISTSPATH ;;
+        -m|--modifier)  shift ; MODIFIER=$1 ;;
+        --npc-create) LIST=npc-create;;
+        --npc-motivation) LIST=npc-motivation;;
+        -p|--path)  shift ; LISTSPATH=$1 ;;
+        -q|--aquelarre) LIST=aquelarre-profesiones;;
+        -t|--detail|--detail-check) LIST=detail-check;;
+        --enemies) LIST=enemies;;
+        --focus) LIST=focus;;
+        --special-elements) LIST=special-elements;;
+        -v|--verbose) VERBOSE=true;;
+        --cthulhu-clues) LIST=cthulhu-clues;;
+        --cthulhu-creature-build) LIST=cthulhu-creature-build;;
+        --cthulhu-creature-build-reference) LIST=cthulhu-creature-build-reference;;
+        --cthulhu-creature-form) LIST=cthulhu-creature-form;;
+        --cthulhu-creature-limbs) LIST=cthulhu-creature-limbs;;
+        --cthulhu-creature) LIST=cthulhu-creature;;
+        --cthulhu-effects-sound) LIST=cthulhu-effects-sound;;
+        --cthulhu-effects-visual) LIST=cthulhu-effects-visual;;
+        # --cthulhu-elements) LIST=cthulhu-elements;;
+        --cthulhu-events) LIST=cthulhu-events;;
+        --cthulhu-location-arctic) LIST=cthulhu-location-arctic;;
+        --cthulhu-location-city) LIST=cthulhu-location-city;;
+        --cthulhu-location-coast) LIST=cthulhu-location-coast;;
+        --cthulhu-location-desert) LIST=cthulhu-location-desert;;
+        --cthulhu-location-forest) LIST=cthulhu-location-forest;;
+        --cthulhu-location-general) LIST=cthulhu-location-general;;
+        --cthulhu-location-grassland) LIST=cthulhu-location-grassland;;
+        --cthulhu-location-hills) LIST=cthulhu-location-hills;;
+        --cthulhu-location-house) LIST=cthulhu-location-house;;
+        --cthulhu-location-landscape-elements) LIST=cthulhu-location-landscape-elements;;
+        --cthulhu-location-mansion) LIST=cthulhu-location-mansion;;
+        --cthulhu-location-monuments) LIST=cthulhu-location-monuments;;
+        --cthulhu-location-mountain) LIST=cthulhu-location-mountain;;
+        --cthulhu-location-structure) LIST=cthulhu-location-structure;;
+        --cthulhu-location-swamp) LIST=cthulhu-location-swamp;;
+        --cthulhu-npc-modifiers) LIST=cthulhu-npc-modifiers;;
+        --cthulhu-occupations) LIST=cthulhu-occupations;;
+        --cthulhu-rumours) LIST=cthulhu-rumours;;
+        --cthulhu-scenarios) LIST=cthulhu-scenarios;;
+        --cthulhu-story-danger) LIST=cthulhu-story-danger;;
+        --cthulhu-story-development) LIST=cthulhu-story-development;;
+        --cthulhu-story-dice-roll) LIST=cthulhu-story-dice-roll;;
+        --cthulhu-story-direction) LIST=cthulhu-story-direction;;
+        --cthulhu-story-discovery) LIST=cthulhu-story-discovery;;
+        --cthulhu-story-discovery-required-skill-roll) LIST=cthulhu-story-discovery-required-skill-roll;;
+        --cthulhu-story-downtime-disturbance) LIST=cthulhu-story-downtime-disturbance;;
+        --cthulhu-verbs) LIST=cthulhu-verbs;;
+        *) echo "error: option $1 does't exist" ; exit 0 ; break;;
+    esac
+    shift
+done
+
+OUTPUT=$(getResult $LIST)
+
+if [ $VERBOSE = "true" ] ;
+then
+    echo ""
+    echo "path: $LISTSPATH"
+    echo "dice: $DICE"
+    echo "modifier: $MODIFIER"
+    echo "list: $LIST"
+    # echo "arg: $1"
+    echo
+fi
+
+echo ""
+echo $OUTPUT
+echo ""

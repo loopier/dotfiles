@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# (
+# amixer get Master | \
+# awk '/Left:/{gsub(/[[:punct:]]/,"",$5);left=$5}
+#      /Right:/{gsub(/[[:punct:]]/,"",$5);right=$5}
+#      END {print left ORS right}'
+# ) | dbar -max 100 -min 0 -s '|' -l 'Vol'
+
+# alacritty -e pulsemixer --config-file alacritty-volume.yaml
+alacritty -e pulsemixer

@@ -1,0 +1,28 @@
+#!/usr/bin/sh
+
+DATE=$(date +%Y%m%d)
+CLIENT=$1
+CLIENT_DATA_PATH=$HOME/.local/share/bill/clients
+# cd $CLIENT_DATA_PATH
+# read -e -p "client ($CLIENT): " CLIENT
+# CLIENT=$(basename -s .client $CLIENT)
+JOB=$2
+CLIENT_DATA_FILE=$CLIENT_DATA_PATH/$CLIENT.client
+CLIENT_DATA=$(awk '{print $0}' $CLIENT_DATA_FILE)
+
+if [ -z $CLIENT_DATA  ]; then
+    ls $CLIENT_DATA_PATH
+    exit 0
+fi
+
+echo "date:   "$DATE
+echo "client: "$CLIENT
+echo "job:    "$JOB
+echo "client data: "
+echo $CLIENT_DATA
+
+# echo "mkdir -p ~/work/$CLIENT-$DATE-$JOB/docs"
+# echo "bill-new $CLIENT $JOB"
+
+mkdir -p ~/work/$CLIENT-$DATE-$JOB/docs
+bill-new $CLIENT $JOB

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# sensors | awk '
+# /CPU/ { print $0 }
+# /^GPU/ { print $0 }
+# '
+
+paste <(cat /sys/class/thermal/thermal_zone*/type) <(cat /sys/class/thermal/thermal_zone*/temp) | column -s $'	' -t | sed 's/\(.\)..$/.\1°C/'

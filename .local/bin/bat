@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# show battery percentage
+upower -e | grep BAT | xargs upower -i | awk '/percentage/{print $2}'
+cat /sys/class/power_supply/BAT0/status

@@ -31,7 +31,7 @@
 (setq doom-font (font-spec
                  :family "mononoki"
                  ;; :weight 'semi-light
-                 :size 18))
+                 :size 12))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -74,6 +74,9 @@
 
 (map! (:map sclang-mode-map :localleader :n "s s" 'sclang-start))
 
+;; org
+;; new
+(setq org-M-RET-may-split-line nil)
 (map! (:map org-mode-map :n "<return>" 'org-toggle-checkbox))
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!

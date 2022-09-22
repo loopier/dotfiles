@@ -1,0 +1,10 @@
+#!/bin/bash
+TEMPLATE=$1
+SESSIONSPATH="loopier/sessions/"
+FILENAME=$SESSIONSPATH"livecoding-$(date +%Y%m%dT%H%M).scd"
+if [ -z "$1" ]
+then
+    cp TEMPLATE FILENAME
+fi
+
+emacs -f "livecode" $FILENAME

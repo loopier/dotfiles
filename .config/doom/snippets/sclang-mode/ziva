@@ -33,8 +33,7 @@ TempoClock.default.tempo = 64/60;
 ~h = Psample(\trihh);
 ~kika = Psample(\trikick).f.r(( (Bjorklund(3,8).sort.reverse!2).flat++Bjorklund(6,8).sort.reverse ).replace(0,\r).pseq);
 
-h = Pdef(\h, [0]);
-h = Pdef(\h, Pstep([0,0,0,1, -2,-2,-1,-1].pseq, [2].pseq));
+h = Ziva.harmony([0].pseq, [1].pseq);
 )
 (
 [

@@ -4,6 +4,8 @@ export HISTFILE=$HOME/.history
 export HISTSIZE=1000
 export SAVEHIST=1000
 export DOOMDIR=$HOME/.config/doom
+export GOPATH=$HOME/.local/share/go
+export GOBIN=$HOME/.local/bin
 
 [[ $- != *i* ]] && return
 

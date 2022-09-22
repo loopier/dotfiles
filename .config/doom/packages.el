@@ -61,6 +61,7 @@
 (package! all-the-icons-dired)
 (package! dired-single)
 (package! elpy)
+(package! festival)
 (package! flx-ido)
 (package! glsl-mode)
 (package! haskell-mode)
