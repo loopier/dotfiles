@@ -303,7 +303,7 @@
 ;; (setq sclang-show-workspace-on-startup nil)
 
 ;; processing
-(setq processing-location "/home/r/.local/bin/processing-java")
+(setq processing-location "/usr/bin/processing-java")
 ;; (setq processing-location "/home/r/.local/bin/processing")
 (map! (:map processing-mode-map :localleader :n "," 'processing-sketch-run))
 
