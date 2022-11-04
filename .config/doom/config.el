@@ -100,7 +100,7 @@
 ;; (defun org-roam--extract-titles-custom (headline title alias))
 ;; (setq org-roam-title-sources org-roam--extract-titels-custom)
 (custom-set-faces
- '(org-level-1 ((t (:family "Noto Sans" :foreground "#fcfcfc" :height 100 :weight bold))))
+ '(org-level-1 ((t (:family "mononoki" :foreground "#fcfcfc" :height 40 :weight bold))))
  '(org-tag ((t (:height 80)))))
 
 (setq org-todo-keyword-faces

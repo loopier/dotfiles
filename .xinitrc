@@ -23,6 +23,8 @@ xsetwacom set "Wacom Cintiq Pro 24 Pad pad" MapToOutput HEAD-0
 xsetwacom set "Wacom Cintiq Pro 24 Touch Finger touch" MapToOutput HEAD-0
 xsetwacom set "Wacom Experss Key Remote Pad pad" MapToOutput HEAD-0
 
+wacom-map-expresskeyremote
+
 slstatus &
 
 # exec startplasma-x11

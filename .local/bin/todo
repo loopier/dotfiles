@@ -1,0 +1,4 @@
+#!/usr/bin/sh -f
+
+grep -n 'TODO:' $1
+grep -n 'FIX:' $1

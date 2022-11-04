@@ -127,7 +127,7 @@
        ;;fsharp            ; ML stands for Microsoft's Language
        ;;fstar             ; (dependent) types and (monadic) effects and Z3
 
-       ;; gdscript          ; the language you waited for
+       gdscript          ; the language you waited for
        ;; (gdscript +lsp)          ; the language you waited for -- +lsp adds language server support for game development with godot
 
        (go +lsp)         ; the hipster dialect

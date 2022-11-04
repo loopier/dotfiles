@@ -51,5 +51,5 @@
  '(font-lock-comment-face ((t (:foreground "dim gray"))))
  '(ledger-font-payee-uncleared-face ((t (:foreground "white" :weight bold))))
  '(ledger-font-posting-account-face ((t (:foreground "gray"))))
- '(org-level-1 ((t (:family "Noto Sans" :foreground "#fcfcfc" :height 100 :weight bold))))
+ '(org-level-1 ((t (:foreground "dark gray" :weight bold))))
  '(org-tag ((t (:height 80)))))

@@ -6,6 +6,9 @@ export SAVEHIST=1000
 export DOOMDIR=$HOME/.config/doom
 export GOPATH=$HOME/.local/share/go
 export GOBIN=$HOME/.local/bin
+export BILLINVOICES=$HOME/comptabilitat/factures
+
+alias billtop='bill -f toplap-registry.dat -P toplap-providers.dat -c toplap-clients.dat -x toplap-expenses.dat'
 
 [[ $- != *i* ]] && return
 
