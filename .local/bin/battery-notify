@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# icons from https://materialdesignicons.com/
+
+export DISPLAY=:0
+export DBUS_SESSION_BUS_ADDRESS="unix:path=/tmp/dbus-1000"
+
+# battery percentage at wihch to notify
+WARNING_LEVEL=15
+BATTERY_DISCHARGING=`cat /sys/class/power_supply/BAT0/status | grep -c "Discharging"`
+BATTERY_LEVEL=`cat /sys/class/power_supply/BAT0/capacity`
+
+# use files to store wether we've shown a notification
+# (to prevent multiple notifications for the same event)
+EMPTY_FILE=/tmp/battery-empty
+FULL_FILE=/tmp/battery-full
+
+# reset notifications if the computer is charging/discharging
+if [ $BATTERY_DISCHARGING -eq 1 ] && [ -f $FULL_FILE ]; then
+    rm $FULL_FILE
+elif [ $BATTERY_DISCHARGING -eq 0 ] && [ -f $EMPTY_FILE ]; then
+    rm $EMPTY_FILE
+fi
+
+# chargin and full
+if [ $BATTERY_LEVEL -gt 95 ] && [ $BATTERY_DISCHARGING -eq 0 ] && [ ! -f $FULL_FULE ]; then
+    notify-send "Battery Charged" "Battery is fully charged." -i "battery" - 9991
+    touch $FULL_FILE
+# low and not charging
+elif [ $BATTERY_LEVEL -le $WARNING_LEVEL ] && [$BATTERY_DISCHARGING -eq 1 ] && [ ! -f $EMPTY_FILE ]; then
+    notify-send "Low Battery" "${BATTERY_LEVEL}% of battery remaining." -u critical -i "battery-alert"
+    touch $EMPTY_FILE
+fi
+unix:path=/tmp/dbus-1000

@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-head=HEAD-0
+head=HEAD-1
 
 xsetwacom set "Wacom Cintiq Pro 16 Pen stylus" MapToOutput $head;
 xsetwacom set "Wacom Cintiq Pro 16 Pen eraser" MapToOutput $head;

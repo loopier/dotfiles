@@ -1,0 +1,24 @@
+#!/bin/sh
+
+SECONDS=$1
+
+if [ $SECONDS -eq 0 ]; then
+    SECONDS=600
+fi
+
+NOW=$(date +%s)
+END_TIME=$(expr $SECONDS + $NOW)
+
+# echo "$NOW : $END_TIME"
+
+while [ $END_TIME -gt $NOW ]
+do
+    clear
+    NOW=$(date +%s)
+    echo "Your tea will be ready in $(expr $END_TIME - $NOW) seconds"
+
+    sleep 1
+done
+
+clear
+echo "Your tea is ready!"

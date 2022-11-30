@@ -23,9 +23,11 @@ Places Icons Static Size=22
 [KPropertiesDialog]
 DP-0 DP-1 Height 1920x1080=435
 DP-0 DP-1 Height 2560x1440=588
+DP-0 DP-1 Height 2560x1440 DP-0=588
 DP-0 DP-1 Height 3840x2160=574
 DP-0 DP-1 Width 1920x1080=373
 DP-0 DP-1 Width 2560x1440=386
+DP-0 DP-1 Width 2560x1440 DP-0=381
 DP-0 DP-1 Width 3840x2160=598
 DP-1 Height 1920x1080=588
 DP-1 Height 1920x1080 DP-1=588
@@ -40,10 +42,7 @@ ToolBarsMovable=Disabled
 
 [Open-with settings]
 CompletionMode=1
-History=vlc,carla,chro,firef,tena,audaci,firefo,fire,view
+History=tenac,ten,ard,vlc,carla,chro,firef,tena,audaci,firefo,fire,view
 
 [PreviewSettings]
 Plugins=jpegthumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,appimagethumbnail,exrthumbnail,svgthumbnail,kraorathumbnail,ebookthumbnail,audiothumbnail,djvuthumbnail,cursorthumbnail,opendocumentthumbnail,comicbookthumbnail,directorythumbnail
-
-[Search]
-Location=Everywhere
