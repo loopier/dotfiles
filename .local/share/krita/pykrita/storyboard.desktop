@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=storyboard
+X-Krita-Manual=README.html
+X-Python-2-Compatible=false
+Name=storyboard
+Comment=Tools for managing storyboards.

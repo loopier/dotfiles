@@ -35,20 +35,24 @@ xsetwacom set "Wacom Express Key Remote Pad pad" Button 10 "key ctrl"
 xsetwacom set "Wacom Express Key Remote Pad pad" Button 11 "key b"
 # switch to previous preset (/)
 xsetwacom set "Wacom Express Key Remote Pad pad" Button 12 "key KP_Divide" 
-# dynamic brush tool
-xsetwacom set "Wacom Express Key Remote Pad pad" Button 13 "key n"
-# deselect
-xsetwacom set "Wacom Express Key Remote Pad pad" Button 14 "key ctrl shift a" 
+# # dynamic brush tool
+# xsetwacom set "Wacom Express Key Remote Pad pad" Button 13 "key n"
+# mirror
+xsetwacom set "Wacom Express Key Remote Pad pad" Button 13 "key q"
+# fill
+xsetwacom set "Wacom Express Key Remote Pad pad" Button 14 "key f"
 # reset rotation
 xsetwacom set "Wacom Express Key Remote Pad pad" Button 15 "key KP_5"
 # select
-xsetwacom set "Wacom Express Key Remote Pad pad" Button 16 "key KP_Multiply" 
-# hide dockers
-xsetwacom set "Wacom Express Key Remote Pad pad" Button 17 "key tab"
-# move
-xsetwacom set "Wacom Express Key Remote Pad pad" Button 18 "key t"
+xsetwacom set "Wacom Express Key Remote Pad pad" Button 16 "key s" 
+# # select
+# xsetwacom set "Wacom Express Key Remote Pad pad" Button 16 "key KP_Multiply" 
+# assistants
+xsetwacom set "Wacom Express Key Remote Pad pad" Button 17 "key a" 
 # transform
-xsetwacom set "Wacom Express Key Remote Pad pad" Button 19 "key ctrl t"
+xsetwacom set "Wacom Express Key Remote Pad pad" Button 18 "key t"
+# deselect
+xsetwacom set "Wacom Express Key Remote Pad pad" Button 19 "key ctrl shift a" 
 # select layer mode
 xsetwacom set "Wacom Express Key Remote Pad pad" Button 20 "key alt"
 # save

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: brief
+# key: /b
+# --
+
+/// \brief

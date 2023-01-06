@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=.icon/_thumbnails.png
+Name=thumbnails
+Type=Link
+URL[$e]=.source/_thumbnails.kra
+X-KDE-Hidden=false

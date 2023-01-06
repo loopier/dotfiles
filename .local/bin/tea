@@ -22,3 +22,4 @@ done
 
 clear
 echo "Your tea is ready!"
+notify-send "Your tea is ready!" -u critical

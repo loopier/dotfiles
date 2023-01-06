@@ -119,6 +119,9 @@
   ;;     (todo "NEXT" nil))
   ;;    nil)))
 
+;; add markdown export option to the export menu
+(eval-after-load "org"
+  '(require 'ox-md nil t))
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.

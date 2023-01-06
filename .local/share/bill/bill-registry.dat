@@ -1,0 +1,5470 @@
+status: Estat
+num: Nº Fact
+date: Data
+client: client
+project: producte
+item: producte : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: IVA Status
+
+status: ok
+num: 2015001
+date: 03/01/2015
+client: sleepers
+project: cacaolat
+item: cacaolat : 1 @ 600.00
+iva: 21.00
+irpf: 20.00
+roi: 
+
+status: ok
+num: 2015002
+date: 16/01/2015
+client: reset
+project: liceu
+item: liceu : 1 @ 275.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2015003
+date: 19/01/2015
+client: escandalo
+project: toro
+item: toro : 1 @ 2500.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2015004
+date: 28/01/2015
+client: munderbar
+project: 100plus
+item: 100plus : 1 @ 1400.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2015005
+date: 14/02/2015
+client: oxígeno
+project: airtel
+item: airtel : 1 @ 300.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2015006
+date: 17/02/2015
+client: ovideo
+project: florette
+item: florette : 1 @ 400.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016042
+date: 26/02/2015
+client: sàpiens
+project: varese
+item: varese : 1 @ 150.00
+iva: 0.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016041
+date: 03/03/2015
+client: tf7
+project: samsung
+item: samsung : 1 @ 300.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016040
+date: 03/03/2015
+client: eyeworks
+project: samsung
+item: samsung : 1 @ 240.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016039
+date: 05/03/2015
+client: central producers
+project: calve
+item: calve : 1 @ 200.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016038
+date: 14/03/2015
+client: mendips
+project: lerbolario
+item: lerbolario : 1 @ 425.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016037
+date: 16/04/2015
+client: sàpiens
+project: xostakòvitx
+item: xostakòvitx : 1 @ 150.00
+iva: 0.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016036
+date: 16/04/2015
+client: garage
+project: nissan
+item: nissan : 1 @ 400.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016035
+date: 22/04/2015
+client: utopia
+project: damm
+item: damm : 1 @ 1200.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016034
+date: 29/04/2015
+client: reset
+project: liceu
+item: liceu : 1 @ 600.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016033
+date: 06/05/2015
+client: ovideo
+project: colacao
+item: colacao : 1 @ 725.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016032
+date: 08/05/2015
+client: ovideo
+project: florette
+item: florette : 1 @ 625.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016031
+date: 13/05/2015
+client: tf7
+project: gillette
+item: gillette : 1 @ 1350.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016030
+date: 01/06/2015
+client: petra garmon
+project: ing
+item: ing : 1 @ 600.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016029
+date: 01/06/2015
+client: reset
+project: liceu
+item: liceu : 1 @ 1650.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: unpayed
+num: 2016028
+date: 07/06/2015
+client: 023
+project: tostarrica
+item: tostarrica : 1 @ 200.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016027
+date: 21/06/2015
+client: garage
+project: activia
+item: activia : 1 @ 440.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016026
+date: 22/06/2015
+client: sàpiens
+project: falla
+item: falla : 1 @ 150.00
+iva: 0.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016025
+date: 01/07/2015
+client: monkey
+project: footbubbles
+item: footbubbles : 1 @ 280.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016024
+date: 02/07/2015
+client: bonita
+project: caillou
+item: caillou : 1 @ 175.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: unpayed
+num: 2016023
+date: 08/07/2015
+client: picnic
+project: teka
+item: teka : 1 @ 240.00
+iva: 21.00
+irpf: 19.00
+roi: 
+
+status: ok
+num: 2016022
+date: 14/07/2015
+client: laiguana
+project: actimel
+item: actimel : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016021
+date: 24/07/2015
+client: sàpiens
+project: sibelius
+item: sibelius : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016020
+date: 24/08/2015
+client: lacosa
+project: fairy
+item: fairy : 1 @ 1127.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016019
+date: 25/08/2015
+client: rcr
+project: jobandtalent
+item: jobandtalent : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016018
+date: 27/08/2015
+client: canada
+project: delvalle
+item: delvalle : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016017
+date: 03/09/2015
+client: bonita
+project: tabletclan
+item: tabletclan : 1 @ 420.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016016
+date: 14/09/2015
+client: sàpiens
+project: consellsdeviatge
+item: consellsdeviatge : 1 @ 120.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016015
+date: 18/09/2015
+client: goroka
+project: bombaysapphire
+item: bombaysapphire : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016014
+date: 28/09/2015
+client: laiguana
+project: shakira
+item: shakira : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016013
+date: 01/10/2015
+client: drtroy
+project: euromillones
+item: euromillones : 1 @ 1540.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016012
+date: 01/10/2015
+client: omicron
+project: lacocinera
+item: lacocinera : 1 @ 1300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016011
+date: 05/10/2015
+client: oxígeno
+project: pepsodent
+item: pepsodent : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016010
+date: 16/10/2015
+client: laiguana
+project: actimel
+item: actimel : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016009
+date: 25/10/2015 17:03:11
+client: sàpiens
+project: messiaen
+item: messiaen : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016008
+date: 26/10/2015 10:58:08
+client: polar star
+project: elalmendro
+item: elalmendro : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016007
+date: 04/11/2015 10:14:23
+client: goroka
+project: bombay
+item: bombay : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016006
+date: 06/11/2015 19:12:53
+client: antiestatico
+project: 
+item:  : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: PROYECTO P3002"
+num: Iberostar
+date: 50
+client: 20.00 €
+project: 15%
+item: 15% : 1 @ 0.00
+iva: 150.00
+irpf: 1060.00
+roi: 
+
+status: ok
+num: 2016005
+date: 20/11/2015 13:09:37
+client: ovideo
+project: nescafe
+item: nescafe : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016004
+date: 01/12/2015 10:23:34
+client: lacosa
+project: pantene
+item: pantene : 1 @ 907.50
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016003
+date: 14/12/2015 12:25:32
+client: cyranos
+project: 
+item:  : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: PO 4700511294"
+num: Beko
+date: 23
+client: 40.00 €
+project: 15%
+item: 15% : 1 @ 0.00
+iva: 138.00
+irpf: 975.20
+roi: 
+
+status: ok
+num: 2016002
+date: 21/12/2015 12:50:00
+client: sàpiens
+project: kaijasaariaho
+item: kaijasaariaho : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016001
+date: 04/01/2016
+client: central producers
+project: nestle
+item: nestle : 1 @ 525.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016002
+date: 28/01/2016
+client: story we produce
+project: fishermansfriend
+item: fishermansfriend : 1 @ 725.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016003
+date: 02/02/2016
+client: puente aéreo
+project: axe
+item: axe : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016004
+date: 03/02/2016
+client: bosalay
+project: qualitasauto
+item: qualitasauto : 1 @ 1425.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016005
+date: 08/02/2016
+client: story we produce
+project: fishermansfriend
+item: fishermansfriend : 1 @ 225.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016006
+date: 09/02/2016
+client: puente aéreo
+project: axe
+item: axe : 1 @ 50.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016007
+date: 10/02/2016
+client: story we produce
+project: abonament
+item: abonament : 1 @ -225.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016010
+date: 27/02/2016
+client: fake
+project: lays
+item: lays : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016009
+date: 23/02/2016
+client: sàpiens
+project: dutilleux
+item: dutilleux : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016010
+date: 01/03/2016
+client: bonita
+project: puzzle3d
+item: puzzle3d : 1 @ 550.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016011
+date: 17/03/2016
+client: auditori
+project: historieselectriques
+item: historieselectriques : 1 @ 1500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016012
+date: 17/03/2016
+client: oriol villar
+project: cazamayor
+item: cazamayor : 1 @ 0.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016013
+date: 29/03/2016
+client: oxígeno
+project: imo
+item: imo : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016014
+date: 17/04/2016
+client: nine to five
+project: lays
+item: lays : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016015
+date: 28/04/2016
+client: sàpiens
+project: ginastera
+item: ginastera : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016016
+date: 02/05/2016
+client: oxígeno
+project: liverpool
+item: liverpool : 1 @ 1425.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016017
+date: 07/05/2016
+client: lacosa
+project: pantene
+item: pantene : 1 @ 325.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016018
+date: 08/05/2016
+client: monkey
+project: racc
+item: racc : 1 @ 1225.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016019
+date: 09/05/2016
+client: paula
+project: meliastand
+item: meliastand : 1 @ 3878.50
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016020
+date: 01/06/2016
+client: lacosa
+project: pantene
+item: pantene : 1 @ 225.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016021
+date: 01/06/2016
+client: picnic
+project: roca
+item: roca : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016022
+date: 04/06/2016
+client: omicron
+project: mediolanum
+item: mediolanum : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016023
+date: 06/06/2016
+client: sàpiens
+project: consellsdeviatge
+item: consellsdeviatge : 1 @ 120.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016024
+date: 13/06/2016
+client: paula
+project: puppets
+item: puppets : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016025
+date: 27/06/2016
+client: sàpiens
+project: leoferrermc352
+item: leoferrermc352 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016026
+date: 29/06/2016
+client: ideas agitadas
+project: hero
+item: hero : 1 @ 275.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016027
+date: 16/07/2016
+client: garage
+project: fontvellakids
+item: fontvellakids : 1 @ 425.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016028
+date: 25/07/2016
+client: monkey
+project: messitrainingsystem
+item: messitrainingsystem : 1 @ 375.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016029
+date: 26/07/2016
+client: ovideo
+project: maggi
+item: maggi : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016030
+date: 12/08/2016
+client: great guns
+project: pantenegaruda
+item: pantenegaruda : 1 @ 625.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2016031
+date: 23/08/2016
+client: sàpiens
+project: reger
+item: reger : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: unpayed
+num: 2016032
+date: 
+client: munderbar
+project: redbull
+item: redbull : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2016033
+date: 06/09/2016
+client: ovideo
+project: maggi
+item: maggi : 1 @ 300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016034
+date: 15/09/2016
+client: story we produce
+project: tollhouse
+item: tollhouse : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016035
+date: 10/10/2016
+client: aigües segarra garrigues
+project: segarragarrigues
+item: segarragarrigues : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2016036
+date: 10/10/2016
+client: oxígeno
+project: majorica
+item: majorica : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017028
+date: 18/10/2016
+client: munderbar
+project: samsungredbull
+item: samsungredbull : 1 @ 2500.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017027
+date: 18/10/2016
+client: lacosa
+project: nocilla
+item: nocilla : 1 @ 300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017026
+date: 20/10/2016
+client: auditori
+project: instruments
+item: instruments : 1 @ 2100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017025
+date: 21/10/2016
+client: scpf
+project: nestlecajaroja
+item: nestlecajaroja : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017024
+date: 21/10/2016
+client: oxígeno
+project: freixenet
+item: freixenet : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017023
+date: 26/10/2016
+client: oriol villar
+project: tarradellas
+item: tarradellas : 1 @ 1150.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017022
+date: 26/10/2016
+client: sr alce
+project: actimelstarwars
+item: actimelstarwars : 1 @ 800.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017021
+date: 26/10/2016
+client: lavinia - spurna
+project: ajuntamentbarcelona
+item: ajuntamentbarcelona : 1 @ 375.00
+iva: 21.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017020
+date: 28/10/2016
+client: sàpiens
+project: eriksatiermc354
+item: eriksatiermc354 : 1 @ 150.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017019
+date: 03/11/2016
+client: lamalanga
+project: herbalife
+item: herbalife : 1 @ 1100.00
+iva: 21.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017018
+date: 03/11/2016
+client: oxígeno
+project: marcotessini
+item: marcotessini : 1 @ 750.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017017
+date: 04/11/2016
+client: edicions graó
+project: roalddahl
+item: roalddahl : 1 @ 45.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017016
+date: 09/11/2016
+client: la diferencia
+project: surfex
+item: surfex : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017015
+date: 14/11/2016
+client: after share
+project: zara
+item: zara : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017014
+date: 14/11/2016
+client: canada
+project: desigual
+item: desigual : 1 @ 400.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017013
+date: 24/11/2016
+client: palma pictures
+project: tdbank
+item: tdbank : 1 @ 675.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017012
+date: 24/11/2016
+client: principal2
+project: alex
+item: alex : 1 @ 300.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017011
+date: 03/12/2016
+client: laiguana
+project: costa
+item: costa : 1 @ 2000.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017010
+date: 05/12/2016
+client: oriol villar
+project: estrelladamm
+item: estrelladamm : 1 @ 1900.00
+iva: 21.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017009
+date: 07/12/2016
+client: garage
+project: conforama
+item: conforama : 1 @ 350.00
+iva: 21.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017008
+date: 09/12/2016
+client: difusión
+project: cdec1
+item: cdec1 : 1 @ 80.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017007
+date: 09/12/2016
+client: laiguana
+project: ooredoo
+item: ooredoo : 1 @ 1025.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017006
+date: 15/12/2016
+client: monkey
+project: argal
+item: argal : 1 @ 300.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017005
+date: 16/12/2016
+client: oxígeno
+project: lays
+item: lays : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017004
+date: 22/12/2016
+client: agosto
+project: solvia
+item: solvia : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017003
+date: 27/12/2016
+client: primo
+project: powerade
+item: powerade : 1 @ 2500.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017002
+date: 28/12/2016
+client: sàpiens
+project: monteverdirmc355
+item: monteverdirmc355 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017001
+date: 17/01/2017
+client: difusión
+project: u5campussur
+item: u5campussur : 1 @ 120.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017046
+date: 20/01/2017
+client: oxígeno
+project: volkswagen
+item: volkswagen : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017045
+date: 24/01/2017
+client: laiguana
+project: ooredoo
+item: ooredoo : 1 @ 506.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017044
+date: 30/01/2017
+client: gang
+project: blend-a-med
+item: blend-a-med : 1 @ 650.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017043
+date: 30/01/2017
+client: principal2
+project: ceys
+item: ceys : 1 @ 780.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017042
+date: 30/01/2017
+client: principal2
+project: giorgi
+item: giorgi : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017041
+date: 07/02/2017
+client: ideas agitadas
+project: produo
+item: produo : 1 @ 300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017040
+date: 15/02/2017
+client: utopia
+project: dammhivern
+item: dammhivern : 1 @ 550.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017039
+date: 21/02/2017
+client: agosto
+project: gasnatural
+item: gasnatural : 1 @ 900.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017038
+date: 21/02/2017
+client: garage
+project: buitoni
+item: buitoni : 1 @ 1500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017037
+date: 21/02/2017
+client: goroka
+project: ajuntamentbarcelona
+item: ajuntamentbarcelona : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017036
+date: 21/02/2017
+client: sr alce
+project: bonflex
+item: bonflex : 1 @ 275.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017035
+date: 02/03/2017
+client: garage
+project: garnier
+item: garnier : 1 @ 650.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017034
+date: 02/03/2017
+client: ideas agitadas
+project: affinity
+item: affinity : 1 @ 900.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017033
+date: 02/03/2017
+client: tbwa
+project: nissanxtrail
+item: nissanxtrail : 1 @ 480.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017032
+date: 03/03/2017
+client: ideas agitadas
+project: gallo
+item: gallo : 1 @ 620.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017031
+date: 08/03/2017
+client: tf7
+project: lyrica
+item: lyrica : 1 @ 1825.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017030
+date: 14/03/2017
+client: sàpiens
+project: rmc356cabezon
+item: rmc356cabezon : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017029
+date: 19/03/2017
+client: oriol villar
+project: tarradellaspillados
+item: tarradellaspillados : 1 @ 525.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017028
+date: 18/03/2017
+client: primo
+project: orange
+item: orange : 1 @ 950.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017027
+date: 03/04/2017
+client: auditori
+project: direcciomusical
+item: direcciomusical : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017026
+date: 03/04/2017
+client: auditori
+project: instruments
+item: instruments : 1 @ 1800.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017025
+date: 11/04/2017
+client: sàpiens
+project: descobrir231
+item: descobrir231 : 1 @ 120.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017024
+date: 11/04/2017
+client: difusión
+project: campussur
+item: campussur : 1 @ 1800.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017025
+date: 18/04/2017
+client: primo buenos aires
+project: scholl
+item: scholl : 1 @ 900.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017026
+date: 05/05/2017
+client: sàpiens
+project: rmc357-mendelssohn
+item: rmc357-mendelssohn : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017027
+date: 05/05/2017
+client: story we produce
+project: nidina
+item: nidina : 1 @ 700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017028
+date: 14/05/2017
+client: smile
+project: motorola
+item: motorola : 1 @ 175.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017029
+date: 18/05/2017
+client: oxígeno
+project: frit
+item: frit : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017030
+date: 25/05/2017
+client: grayskull
+project: midea
+item: midea : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017031
+date: 29/05/2017
+client: taxi films
+project: maxus
+item: maxus : 1 @ 225.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017032
+date: 29/05/2017
+client: garage
+project: fontbona
+item: fontbona : 1 @ 325.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017033
+date: 26/06/2017
+client: sàpiens
+project: rmc358verdi
+item: rmc358verdi : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017034
+date: 03/07/2017
+client: la diferencia
+project: rocabeyond
+item: rocabeyond : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017035
+date: 12/07/2017
+client: blur
+project: aldi
+item: aldi : 1 @ 120.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017036
+date: 12/07/2017
+client: agosto
+project: audi
+item: audi : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017037
+date: 12/07/2017
+client: oriol villar
+project: kh7
+item: kh7 : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017038
+date: 12/07/2017
+client: sr alce
+project: kneipp
+item: kneipp : 1 @ 225.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017039
+date: 14/07/2017
+client: garage digital media lab
+project: danacol
+item: danacol : 1 @ 625.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017040
+date: 25/07/2017
+client: cangrejo
+project: audi
+item: audi : 1 @ 1100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017041
+date: 09/08/2017
+client: transversal
+project: storyboard3.17.pro-030
+item: storyboard3.17.pro-030 : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017042
+date: 29/08/2017
+client: lacosa
+project: beko
+item: beko : 1 @ 702.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017043
+date: 29/08/2017
+client: vice
+project: nissanxtrail
+item: nissanxtrail : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017044
+date: 05/09/2017
+client: agosto
+project: brookebondtea
+item: brookebondtea : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017045
+date: 05/09/2017
+client: sàpiens
+project: rmc359penderecki
+item: rmc359penderecki : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017046
+date: 05/09/2017
+client: mandarin
+project: freixenet
+item: freixenet : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017047
+date: 05/09/2017
+client: sr alce
+project: airbnb
+item: airbnb : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017048
+date: 08/09/2017
+client: oxígeno mexico
+project: liverpool
+item: liverpool : 1 @ 850.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017049
+date: 26/09/2017
+client: transversal
+project: atturaiff
+item: atturaiff : 1 @ 1100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017050
+date: 26/09/2017
+client: great guns uk
+project: venus
+item: venus : 1 @ 650.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017051
+date: 26/09/2017
+client: oriol villar
+project: tarradellas
+item: tarradellas : 1 @ 900.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017052
+date: 29/09/2017
+client: smile
+project: applebees
+item: applebees : 1 @ 625.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017053
+date: 30/09/2017
+client: mamma team
+project: lays
+item: lays : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017054
+date: 09/10/2017
+client: difusión
+project: abonament2017001
+item: abonament2017001 : 1 @ -120.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017055
+date: 10/10/2017
+client: primo
+project: daciaduster
+item: daciaduster : 1 @ 1100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017056
+date: 10/10/2017
+client: transversal
+project: atturaiff-b2.b13
+item: atturaiff-b2.b13 : 1 @ 1025.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017057
+date: 10/10/2017
+client: sobreatico
+project: rallymontecarlo
+item: rallymontecarlo : 1 @ 300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017058
+date: 22/10/2017
+client: soup film
+project: rewe
+item: rewe : 1 @ 1000.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017059
+date: 28/10/2017
+client: planta films
+project: covino
+item: covino : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017060
+date: 28/10/2017
+client: sr alce
+project: catalanaoccidente
+item: catalanaoccidente : 1 @ 1170.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017061
+date: 30/10/2017
+client: oriol villar
+project: volldamm
+item: volldamm : 1 @ 1050.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017062
+date: 30/10/2017
+client: sàpiens
+project: rmc360johnwilliams
+item: rmc360johnwilliams : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017063
+date: 31/10/2017
+client: la diferencia
+project: roca
+item: roca : 1 @ 1060.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017064
+date: 13/11/2017
+client: la diferencia
+project: roca
+item: roca : 1 @ 1314.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017065
+date: 13/11/2017
+client: igloo
+project: colacao
+item: colacao : 1 @ 900.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017066
+date: 13/11/2017
+client: utopia
+project: tarradellas
+item: tarradellas : 1 @ 700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017067
+date: 14/11/2017
+client: transversal
+project: books-2_5_13
+item: books-2_5_13 : 1 @ 1300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017068
+date: 17/11/2017
+client: e⊕p films
+project: perwoll
+item: perwoll : 1 @ 500.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2017069
+date: 17/11/2017
+client: sàpiens
+project: sapiens189generalitats
+item: sapiens189generalitats : 1 @ 300.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017070
+date: 23/11/2017
+client: joan vallverdú nogués
+project: asics
+item: asics : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017071
+date: 28/11/2017
+client: transversal
+project: book2revs
+item: book2revs : 1 @ 75.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017072
+date: 05/12/2017
+client: rcr
+project: belllight
+item: belllight : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017073
+date: 05/12/2017
+client: sr alce
+project: gallinablanca
+item: gallinablanca : 1 @ 300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017074
+date: 05/12/2017
+client: oriol villar
+project: kh7
+item: kh7 : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017075
+date: 20/12/2017
+client: oriol villar
+project: estrelladamm
+item: estrelladamm : 1 @ 975.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017076
+date: 20/12/2017
+client: puente aéreo
+project: suchard
+item: suchard : 1 @ 650.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017077
+date: 20/12/2017
+client: sàpiens
+project: rmc361hugowolf
+item: rmc361hugowolf : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017078
+date: 22/12/2017
+client: transversal
+project: artfinalbook3
+item: artfinalbook3 : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2017079
+date: 22/12/2017
+client: goroka
+project: veri
+item: veri : 1 @ 320.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: 
+num: 2018000
+date: 
+client: 
+project: 
+item:  : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2018001
+date: 03/01/2018
+client: lacosa
+project: lapiara
+item: lapiara : 1 @ 725.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018002
+date: 10/01/2018
+client: oriol villar
+project: vivesoy
+item: vivesoy : 1 @ 825.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018003
+date: 10/01/2018
+client: sr alce
+project: fontvella
+item: fontvella : 1 @ 425.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018004
+date: 11/01/2018
+client: lacosa
+project: portaventura
+item: portaventura : 1 @ 1160.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018005
+date: 11/01/2018
+client: production club
+project: intex
+item: intex : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018006
+date: 19/01/2018
+client: lacosa
+project: colacao
+item: colacao : 1 @ 225.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018007
+date: 20/01/2018
+client: la diferencia
+project: byp
+item: byp : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018008
+date: 23/01/2018
+client: oxígeno
+project: segurossantander
+item: segurossantander : 1 @ 850.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018009
+date: 24/01/2018
+client: goroka
+project: pullmantur
+item: pullmantur : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018010
+date: 29/01/2018
+client: monkey
+project: fujitsu
+item: fujitsu : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018011
+date: 01/02/2018
+client: sàpiens
+project: monturiol
+item: monturiol : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: unpayed
+num: 2018012
+date: 12/02/2018
+client: lovehate
+project: rimmel
+item: rimmel : 1 @ 475.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2018013
+date: 12/02/2018
+client: vivi
+project: vodafone
+item: vodafone : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018014
+date: 14/02/2018
+client: bamalontrading
+project: valspar
+item: valspar : 1 @ 1340.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018015
+date: 15/02/2018
+client: sàpiens
+project: wikipedia
+item: wikipedia : 1 @ 400.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018016
+date: 22/02/2018
+client: sàpiens
+project: rmc362johnadams
+item: rmc362johnadams : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018017
+date: 26/02/2018
+client: lamalanga
+project: tonicavichycatalan
+item: tonicavichycatalan : 1 @ 675.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018018
+date: 26/02/2018
+client: oxígeno
+project: josecuervo
+item: josecuervo : 1 @ 625.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018019
+date: 26/02/2018
+client: garage digital media lab
+project: fontvella
+item: fontvella : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018020
+date: 26/02/2018
+client: garage digital media lab
+project: abanca
+item: abanca : 1 @ 100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018021
+date: 27/02/2018
+client: lacosa
+project: tostaricaphoskitos
+item: tostaricaphoskitos : 1 @ 700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018022
+date: 07/03/2018
+client: sr alce
+project: lagrossa
+item: lagrossa : 1 @ 525.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018023
+date: 11/03/2018
+client: auditori
+project: historieselectriquesinstruments
+item: historieselectriquesinstruments : 1 @ 1800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018024
+date: 12/03/2018
+client: ideas agitadas
+project: titanlux
+item: titanlux : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018025
+date: 15/03/2018
+client: lacosa
+project: buitoni
+item: buitoni : 1 @ 325.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018026
+date: 03/04/2018
+client: sr alce
+project: dkv
+item: dkv : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: s/n
+date: 13/04/2018
+client: auditori
+project: nòmina - no és factura
+item: nòmina - no és factura : 1 @ 1135.84
+iva: 0.00
+irpf: 15.00
+roi:
+
+status: ok
+num: 2018027
+date: 17/04/2018
+client: sàpiens
+project: sapiens194
+item: sapiens194 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018028
+date: 17/04/2018
+client: sàpiens
+project: bernsteinrmc363
+item: bernsteinrmc363 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018029
+date: 20/04/2018
+client: lacosa
+project: sanogyl
+item: sanogyl : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018030
+date: 25/04/2018
+client: goodgate
+project: virginmobile
+item: virginmobile : 1 @ 875.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018031
+date: 26/04/2018
+client: auditori
+project: direcciomusical
+item: direcciomusical : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018032
+date: 26/04/2018
+client: lacosa
+project: lays
+item: lays : 1 @ 525.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018033
+date: 10/05/2018
+client: soonintokyo
+project: puigrewind
+item: puigrewind : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018034
+date: 16/05/2018
+client: garage digital media lab
+project: fontvella
+item: fontvella : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018035
+date: 17/05/2018
+client: lacosa
+project: tostaricaphoskitos
+item: tostaricaphoskitos : 1 @ 625.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018036
+date: 22/05/2018
+client: sr alce
+project: airbnb
+item: airbnb : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018037
+date: 24/05/2018
+client: omicron
+project: fisiocrem
+item: fisiocrem : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018038
+date: 24/05/2018
+client: tf7
+project: hourglass
+item: hourglass : 1 @ 1801.88
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018039
+date: 31/05/2018
+client: iris
+project: honda
+item: honda : 1 @ 1900.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018040
+date: 31/05/2018
+client: petra garmon
+project: levite
+item: levite : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018041
+date: 10/06/2018
+client: china
+project: loterias
+item: loterias : 1 @ 1600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018042
+date: 11/06/2018
+client: sr alce
+project: danonefree
+item: danonefree : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018043
+date: 11/06/2018
+client: production club
+project: seat
+item: seat : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018044
+date: 14/06/2018
+client: sàpiens
+project: cererolsrmc364
+item: cererolsrmc364 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018045
+date: 14/06/2018
+client: oriol villar
+project: pascual
+item: pascual : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018046
+date: 20/06/2018
+client: goroka-mediapolis
+project: gdpr
+item: gdpr : 1 @ 1300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018047
+date: 20/06/2018
+client: vice
+project: nutella
+item: nutella : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018048
+date: 25/06/2018
+client: lacosa
+project: campurrianas
+item: campurrianas : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018049
+date: 25/06/2018
+client: tf7
+project: nucala
+item: nucala : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018050
+date: 27/06/2018
+client: vice
+project: nutella
+item: nutella : 1 @ 825.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018051
+date: 02/07/2018
+client: lobo
+project: bbva
+item: bbva : 1 @ 950.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018052
+date: 06/07/2018
+client: oxígeno
+project: cortoaudi
+item: cortoaudi : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018053
+date: 11/07/2018
+client: tf7
+project: adidas
+item: adidas : 1 @ 1748.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018054
+date: 03/08/2018
+client: puente aéreo
+project: seat
+item: seat : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018055
+date: 24/08/2018
+client: vice
+project: lidl
+item: lidl : 1 @ 1250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018056
+date: 24/08/2018
+client: vice
+project: lidl
+item: lidl : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018057
+date: 27/08/2018
+client: monkey
+project: cofidis
+item: cofidis : 1 @ 360.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018058
+date: 06/09/2018
+client: primo buenos aires
+project: tarradellas
+item: tarradellas : 1 @ 1375.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018059
+date: 13/09/2018
+client: sàpiens
+project: rmc365philipglass
+item: rmc365philipglass : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018060
+date: 13/09/2018
+client: sàpiens
+project: sapiens197
+item: sapiens197 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018061
+date: 21/09/2018
+client: blur
+project: movistar
+item: movistar : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018062
+date: 21/09/2018
+client: sàpiens
+project: argojoseppineda
+item: argojoseppineda : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018063
+date: 08/10/2018
+client: sàpiens
+project: sapiens200
+item: sapiens200 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018064
+date: 16/10/2018
+client: tf7
+project: ajovy
+item: ajovy : 1 @ 1150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018065
+date: 16/10/2018
+client: sàpiens
+project: rossinirmc366
+item: rossinirmc366 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018066
+date: 29/10/2018
+client: gang films (fr)
+project: laredoute
+item: laredoute : 1 @ 350.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2018067
+date: 14/11/2018
+client: lacosa
+project: packhospitalestostaricaphoskitos
+item: packhospitalestostaricaphoskitos : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018068
+date: 20/11/2018
+client: lacosa
+project: tresemme
+item: tresemme : 1 @ 325.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018069
+date: 20/11/2018
+client: ideas agitadas
+project: cadena88
+item: cadena88 : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018070
+date: 22/11/2018
+client: utopia
+project: tarradellasbrutal
+item: tarradellasbrutal : 1 @ 725.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018071
+date: 22/11/2018
+client: petra garmon
+project: gum
+item: gum : 1 @ 550.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018072
+date: 22/11/2018
+client: canada
+project: cornetto
+item: cornetto : 1 @ 775.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018073
+date: 24/12/2018
+client: sàpiens
+project: sapiens202mapabruixes
+item: sapiens202mapabruixes : 1 @ 250.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018074
+date: 24/12/2018
+client: sàpiens
+project: berzliozrmc367
+item: berzliozrmc367 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2018075
+date: 31/12/2018
+client: lovehate
+project: abonament 2018012
+item: abonament 2018012 : 1 @ -475.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: 
+num: 2019000
+date: 
+client: 
+project: 
+item:  : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2019001
+date: 16/01/2019
+client: tf7
+project: afi
+item: afi : 1 @ 950.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019002
+date: 29/01/2019
+client: lacosa
+project: lapiarahumus
+item: lapiarahumus : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019003
+date: 04/02/2019
+client: lacosa
+project: colacao
+item: colacao : 1 @ 425.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019004
+date: 04/02/2019
+client: primo
+project: bankinter
+item: bankinter : 1 @ 700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019005
+date: 22/02/2019
+client: gang films (fr)
+project: goodhome
+item: goodhome : 1 @ 2859.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2019006
+date: 22/02/2019
+client: lacosa
+project: artinata
+item: artinata : 1 @ 900.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019007
+date: 22/02/2019
+client: sr alce
+project: shakissimo
+item: shakissimo : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019008
+date: 22/02/2019
+client: sr alce
+project: affinity
+item: affinity : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019009
+date: 01/03/2019
+client: oxígeno
+project: fosters
+item: fosters : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019010
+date: 01/03/2019
+client: oriol villar
+project: espetec
+item: espetec : 1 @ 1150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019011
+date: 02/03/2019
+client: sr alce
+project: bbva
+item: bbva : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019012
+date: 04/03/2019
+client: mamma team
+project: oppo
+item: oppo : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019013
+date: 15/03/2019
+client: sàpiens
+project: schumannrmc368
+item: schumannrmc368 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019014
+date: 20/03/2019
+client: mandarin madrid
+project: caricatura
+item: caricatura : 1 @ 50.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019015
+date: 27/03/2019
+client: primo buenos aires
+project: tarradellesespetec
+item: tarradellesespetec : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019016
+date: 27/03/2019
+client: difusión
+project: proyectos-1a7
+item: proyectos-1a7 : 1 @ 480.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019017
+date: 27/03/2019
+client: sàpiens
+project: sapiens205dretsdaautor
+item: sapiens205dretsdaautor : 1 @ 250.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019018
+date: 27/03/2019
+client: lacosa
+project: granditalia
+item: granditalia : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019019
+date: 27/03/2019
+client: lacosa
+project: phoskitostostaricaoceanix
+item: phoskitostostaricaoceanix : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019020
+date: 27/03/2019
+client: lacosa
+project: ideal
+item: ideal : 1 @ 350.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019021
+date: 27/03/2019
+client: lacosa
+project: cortefiel
+item: cortefiel : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019022
+date: 27/03/2019
+client: sr alce
+project: affinity
+item: affinity : 1 @ 700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019023
+date: 27/03/2019
+client: mireia córdoba
+project: tallersanimacio
+item: tallersanimacio : 1 @ 540.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019024
+date: 03/04/2019
+client: sàpiens
+project: argojosepcote
+item: argojosepcote : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019025
+date: 24/04/2019
+client: lacosa
+project: artinata
+item: artinata : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019026
+date: 26/04/2019
+client: sàpiens
+project: puccinirmc369
+item: puccinirmc369 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019027
+date: 03/05/2019
+client: tf7
+project: adidas
+item: adidas : 1 @ 1500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019028
+date: 03/05/2019
+client: albert bernat
+project: gxf
+item: gxf : 1 @ 250.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019029
+date: 03/05/2019
+client: canada
+project: loewe
+item: loewe : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019030
+date: 08/05/2019
+client: oxígeno
+project: mediolanum
+item: mediolanum : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019031
+date: 15/05/2019
+client: ideas agitadas
+project: hero
+item: hero : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019032
+date: 15/05/2019
+client: gpd polonia
+project: lidl
+item: lidl : 1 @ 1800.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2019033
+date: 24/05/2019
+client: auditori
+project: outofthecage
+item: outofthecage : 1 @ 250.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019034
+date: 24/05/2019
+client: petra garmon
+project: llongueras
+item: llongueras : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019035
+date: 24/05/2019
+client: gang films (fr)
+project: goodhome
+item: goodhome : 1 @ 1120.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2019036
+date: 06/06/2019
+client: sr alce
+project: affinity
+item: affinity : 1 @ 550.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019037
+date: 07/06/2019
+client: vice
+project: barça
+item: barça : 1 @ 700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019038
+date: 07/06/2019
+client: mediaproduccion
+project: laliga
+item: laliga : 1 @ 700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019039
+date: 19/06/2019
+client: vice
+project: openbank
+item: openbank : 1 @ 644.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019040
+date: 19/06/2019
+client: sr alce
+project: bellaeaso
+item: bellaeaso : 1 @ 196.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019041
+date: 26/06/2019
+client: lacosa
+project: conceptstostarica
+item: conceptstostarica : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019042
+date: 26/06/2019
+client: lacosa
+project: tostarica
+item: tostarica : 1 @ 308.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019043
+date: 26/06/2019
+client: lacosa
+project: phoskitos
+item: phoskitos : 1 @ 504.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019044
+date: 26/06/2019
+client: lacosa
+project: lapiara
+item: lapiara : 1 @ 588.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019045
+date: 05/07/2019
+client: ideas agitadas
+project: borgesstoryboard
+item: borgesstoryboard : 1 @ 950.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019046
+date: 05/07/2019
+client: ideas agitadas
+project: borgesanimatic
+item: borgesanimatic : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019047
+date: 08/07/2019
+client: sàpiens
+project: sapiens209mapanil
+item: sapiens209mapanil : 1 @ 120.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019048
+date: 12/07/2019
+client: lacosa
+project: caixabank
+item: caixabank : 1 @ 100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019049
+date: 23/07/2019
+client: smile
+project: hp
+item: hp : 1 @ 812.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019050
+date: 26/07/2019
+client: tf7
+project: jbl
+item: jbl : 1 @ 588.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019051
+date: 31/07/2019
+client: lacosa
+project: caixabank
+item: caixabank : 1 @ 168.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019052
+date: 02/08/2019
+client: sàpiens
+project: barbarastrozzirmc370
+item: barbarastrozzirmc370 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019053
+date: 19/08/2019
+client: gang films (fr)
+project: goodhome
+item: goodhome : 1 @ 1036.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2019054
+date: 10/09/2019
+client: primo buenos aires
+project: pikolin
+item: pikolin : 1 @ 1148.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019055
+date: 18/09/2019
+client: ideas agitadas
+project: borges
+item: borges : 1 @ 336.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019056
+date: 25/09/2019
+client: possible
+project: freixenet
+item: freixenet : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019057
+date: 26/09/2019
+client: sr alce
+project: lagrossa
+item: lagrossa : 1 @ 560.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019058
+date: 14/10/2019
+client: sàpiens
+project: rmc370stravinsky
+item: rmc370stravinsky : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019059
+date: 14/10/2019
+client: gang films (fr)
+project: goodhome
+item: goodhome : 1 @ 1792.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2019060
+date: 14/10/2019
+client: cpworks
+project: airwick
+item: airwick : 1 @ 476.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019061
+date: 28/10/2019
+client: ideas agitadas
+project: borges
+item: borges : 1 @ 448.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019062
+date: 07/11/2019
+client: la diferencia
+project: rocacareos
+item: rocacareos : 1 @ 1800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019063
+date: 15/11/2019
+client: primo
+project: tarradellas
+item: tarradellas : 1 @ 784.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019064
+date: 29/11/2019
+client: oriol villar
+project: bankinter
+item: bankinter : 1 @ 896.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019065
+date: 29/11/2019
+client: sàpiens
+project: argosinibalddemas
+item: argosinibalddemas : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019066
+date: 29/11/2019
+client: sàpiens
+project: putinsapiens214
+item: putinsapiens214 : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019067
+date: 30/11/2019
+client: jaja
+project: fiat
+item: fiat : 1 @ 784.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2019068
+date: 05/12/2019
+client: oriol villar
+project: volldamm
+item: volldamm : 1 @ 1148.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019069
+date: 12/12/2019
+client: canada
+project: ikea
+item: ikea : 1 @ 812.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019070
+date: 12/12/2019
+client: cangrejo
+project: affinity
+item: affinity : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019071
+date: 12/12/2019
+client: lacosa
+project: ariel
+item: ariel : 1 @ 280.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019072
+date: 12/12/2019
+client: oriol villar
+project: tarradellas
+item: tarradellas : 1 @ 896.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019073
+date: 12/12/2019
+client: la diferencia
+project: tgt
+item: tgt : 1 @ 648.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019074
+date: 13/12/2019
+client: cangrejo
+project: noel
+item: noel : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019075
+date: 13/12/2019
+client: landia
+project: cocacola
+item: cocacola : 1 @ 2700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019076
+date: 23/12/2019
+client: cpworks
+project: nocilla
+item: nocilla : 1 @ 308.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2019077
+date: 27/12/2019
+client: phantasm
+project: hermes
+item: hermes : 1 @ 1904.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: 
+num: 2020000
+date: 
+client: 
+project: 
+item:  : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2020001
+date: 20/01/2020
+client: sàpiens
+project: portadasapiens215
+item: portadasapiens215 : 1 @ 500.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020002
+date: 20/01/2020
+client: petra garmon
+project: infojobs
+item: infojobs : 1 @ 756.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020003
+date: 21/01/2020
+client: sr alce
+project: bimbo
+item: bimbo : 1 @ 575.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020004
+date: 23/01/2020
+client: "dosdevideo
+project: 
+item:  : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: "
+num: 
+date: Risas
+client: 
+project: 21%
+item: 21% : 1 @ 530.00
+iva: 105.00
+irpf: 75.00
+roi: 
+
+status: ok
+num: 2020005
+date: 10/02/2020
+client: production club
+project: seat
+item: seat : 1 @ 2600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020006
+date: 10/02/2020
+client: fake
+project: pastelokis
+item: pastelokis : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020007
+date: 14/02/2020
+client: oriol villar
+project: estrelladamm
+item: estrelladamm : 1 @ 588.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020008
+date: 14/02/2020
+client: garcia (agència publi)
+project: lagrossa
+item: lagrossa : 1 @ 240.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020009
+date: 14/02/2020
+client: lacosa
+project: pantene
+item: pantene : 1 @ 280.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020010
+date: 14/02/2020
+client: cangrejo
+project: talquistina
+item: talquistina : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020011
+date: 21/02/2020
+client: primo buenos aires
+project: volldamm
+item: volldamm : 1 @ 952.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020012
+date: 21/02/2020
+client: ideas agitadas
+project: planet
+item: planet : 1 @ 1204.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020013
+date: 28/02/2020
+client: sr alce
+project: lagrossa
+item: lagrossa : 1 @ 550.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020014
+date: 09/03/2020
+client: sàpiens
+project: rmc372bachbordieu
+item: rmc372bachbordieu : 1 @ 300.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020015
+date: 12/03/2020
+client: auditori
+project: programaoutofthecage
+item: programaoutofthecage : 1 @ 785.83
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020016
+date: 02/06/2020
+client: l'illa del tresor
+project: tote
+item: tote : 1 @ 200.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020017
+date: 02/06/2020
+client: primo buenos aires
+project: espetec
+item: espetec : 1 @ 999.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020018
+date: 02/06/2020
+client: sàpiens
+project: argoarranz
+item: argoarranz : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020019
+date: 12/06/2020
+client: production club
+project: carbonell
+item: carbonell : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020020
+date: 17/06/2020
+client: lacosa
+project: pantene
+item: pantene : 1 @ 405.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020021
+date: 18/06/2020
+client: canada
+project: cupra
+item: cupra : 1 @ 90.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020022
+date: 18/06/2020
+client: petra garmon
+project: colacao
+item: colacao : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020023
+date: 22/07/2020
+client: lacosa
+project: emperador
+item: emperador : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020024
+date: 24/07/2020
+client: fake
+project: evo
+item: evo : 1 @ 448.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020025
+date: 24/07/2020
+client: cangrejo
+project: danone
+item: danone : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020026
+date: 01/08/2020
+client: primo buenos aires
+project: campofrio
+item: campofrio : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020027
+date: 06/08/2020
+client: production club
+project: mahou
+item: mahou : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020028
+date: 21/08/2020
+client: sr alce
+project: burgerking
+item: burgerking : 1 @ 408.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020029
+date: 07/09/2020
+client: primo buenos aires
+project: pizzatarradellas
+item: pizzatarradellas : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020030
+date: 08/09/2020
+client: le berg
+project: mercedesclassc
+item: mercedesclassc : 1 @ 1000.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2020031
+date: 17/09/2020
+client: davant-garde
+project: clorox
+item: clorox : 1 @ 1300.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2020032
+date: 21/09/2020
+client: primo buenos aires
+project: tarradellasextra
+item: tarradellasextra : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020033
+date: 21/09/2020
+client: mosquito
+project: baer
+item: baer : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020034
+date: 21/09/2020
+client: petra garmon
+project: lidl
+item: lidl : 1 @ 700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020035
+date: 02/10/2020
+client: canada
+project: lays
+item: lays : 1 @ 1700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020036
+date: 07/10/2020
+client: production club
+project: decathlon
+item: decathlon : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020037
+date: 09/10/2020
+client: canada
+project: skyrojo
+item: skyrojo : 1 @ 980.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020038
+date: 17/10/2020
+client: alejandra fotografa
+project: serveis
+item: serveis : 1 @ 120.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020039
+date: 27/10/2020
+client: sàpiens
+project: argo-arthaud
+item: argo-arthaud : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020040
+date: 05/11/2020
+client: lacosa
+project: purina
+item: purina : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020041
+date: 05/11/2020
+client: le berg
+project: mercedes
+item: mercedes : 1 @ 1380.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2020042
+date: 10/11/2020
+client: sralce
+project: lagrossa
+item: lagrossa : 1 @ 392.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020043
+date: 10/11/2020
+client: blank
+project: pescanova
+item: pescanova : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020044
+date: 12/11/2020
+client: lacosa
+project: purinafotos
+item: purinafotos : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020045
+date: 13/11/2020
+client: petragarmon
+project: affinity
+item: affinity : 1 @ 400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020046
+date: 19/11/2020
+client: linabautista
+project: trobadatoplap
+item: trobadatoplap : 1 @ 170.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020047
+date: 20/11/2020
+client: lacosa
+project: purinagourmet
+item: purinagourmet : 1 @ 840.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020048
+date: 20/11/2020
+client: dorispallars
+project: serveisoctnov
+item: serveisoctnov : 1 @ 300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020049
+date: 23/11/2020
+client: canada
+project: zaracancelled
+item: zaracancelled : 1 @ 100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020050
+date: 25/11/2020
+client: difusión
+project: reutilitzaci
+item: reutilitzaci : 1 @ 227.50
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020051
+date: 25/11/2020
+client: difusión
+project: reutilitzaciocampussuriproyectospermapas
+item: reutilitzaciocampussuriproyectospermapas : 1 @ 140.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020052
+date: 30/11/2020
+client: onedata
+project: jeroabcnovembre
+item: jeroabcnovembre : 1 @ 360.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020053
+date: 16/12/2020
+client: hangar
+project: onthefly
+item: onthefly : 1 @ 1500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020054
+date: 16/12/2020
+client: sralce
+project: sault
+item: sault : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020055
+date: 18/12/2020
+client: oriolvillar
+project: pascual
+item: pascual : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020056
+date: 22/12/2020
+client: befaco
+project: modularday
+item: modularday : 1 @ 175.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: unpayed
+num: 2020057
+date: 23/12/2020
+client: hangar
+project: fromscratch
+item: fromscratch : 1 @ 50.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020058
+date: 24/12/2020
+client: still
+project: intermarche
+item: intermarche : 1 @ 1100.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2020059
+date: 24/12/2020
+client: dorispallars
+project: serveisdes
+item: serveisdes : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020060
+date: 30/12/2020
+client: onedata
+project: jeroabcdesembre
+item: jeroabcdesembre : 1 @ 372.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020061
+date: 30/12/2020
+client: tantàgora
+project: rel6
+item: rel6 : 1 @ 1410.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2020062
+date: 31/12/2020
+client: hangar
+project: abonament2020057
+item: abonament2020057 : 1 @ -50.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: 
+num: 2021000
+date: 
+client: 
+project: 
+item:  : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2021001
+date: 14/01/2021
+client: hangar
+project: fromscratch
+item: fromscratch : 1 @ 50.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021002
+date: 19/01/2021
+client: phantasm
+project: nissan
+item: nissan : 1 @ 1575.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: ok
+num: 2021003
+date: 19/01/2021
+client: bambina
+project: dammcocineros
+item: dammcocineros : 1 @ 1568.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021004
+date: 20/01/2021
+client: still
+project: intermarche
+item: intermarche : 1 @ 475.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: ok
+num: 2021005
+date: 26/01/2021
+client: oriolvillar
+project: conceptspascual
+item: conceptspascual : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021006
+date: 26/01/2021
+client: lacosa
+project: pantene
+item: pantene : 1 @ 510.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021007
+date: 27/01/2021
+client: dorispallars
+project: genfeb
+item: genfeb : 1 @ 300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021008
+date: 29/01/2021
+client: onedata
+project: jeroabcgener
+item: jeroabcgener : 1 @ 372.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021009
+date: 09/02/2021
+client: bambina
+project: pikolin
+item: pikolin : 1 @ 300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021010
+date: 16/02/2021
+client: productionclub
+project: lays
+item: lays : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021011
+date: 17/02/2021
+client: canada
+project: zara
+item: zara : 1 @ 630.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021012
+date: 23/02/2021
+client: sapiens
+project: rmc373belabartok
+item: rmc373belabartok : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: exempt
+
+status: ok
+num: 2021013
+date: 26/02/2021
+client: onedata
+project: jeroglificsabcfebrer
+item: jeroglificsabcfebrer : 1 @ 336.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021014
+date: 03/03/2021
+client: sralce
+project: affinity
+item: affinity : 1 @ 1000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021015
+date: 04/03/2021
+client: lee
+project: knorr
+item: knorr : 1 @ 1080.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021016
+date: 05/03/2021
+client: europeanfilmprods
+project: jacquemus
+item: jacquemus : 1 @ 500.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: ok
+num: 2021017
+date: 05/03/2021
+client: dorispallars
+project: març
+item: març : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021018
+date: 09/03/2021
+client: oriolvillar
+project: estrelladamm
+item: estrelladamm : 1 @ 2250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021019
+date: 11/03/2021
+client: fake
+project: viladrau
+item: viladrau : 1 @ 680.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021020
+date: 12/03/2021
+client: productionclub
+project: pescanova
+item: pescanova : 1 @ 725.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021021
+date: 12/03/2021
+client: hangar
+project: cartellviu
+item: cartellviu : 1 @ 100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021022
+date: 17/03/2021
+client: cangrejo
+project: affinity
+item: affinity : 1 @ 825.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021023
+date: 29/03/2021
+client: onedata
+project: jeroabcmarc
+item: jeroabcmarc : 1 @ 372.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021024
+date: 29/03/2021
+client: still
+project: intermarche
+item: intermarche : 1 @ 690.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: ok
+num: 2021025
+date: 29/03/2021
+client: canada
+project: bershka
+item: bershka : 1 @ 630.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021026
+date: 01/04/2021
+client: caviar
+project: klarna
+item: klarna : 1 @ 1770.00
+iva: 0.00
+irpf: 0.00
+roi: export
+
+status: ok
+num: 2021027
+date: 01/04/2021
+client: oriolvillar
+project: nyutuber
+item: nyutuber : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021028
+date: 02/04/2021
+client: dorispallars
+project: abril
+item: abril : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021029
+date: 13/04/2021
+client: sralce
+project: fundaciocarreras
+item: fundaciocarreras : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021030
+date: 19/04/2021
+client: virtualfilms
+project: supernova
+item: supernova : 1 @ 420.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021031
+date: 19/04/2021
+client: leberg
+project: steinbeis
+item: steinbeis : 1 @ 630.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: ok
+num: 2021032
+date: 19/04/2021
+client: oriolvillar
+project: tarradellas
+item: tarradellas : 1 @ 1960.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021033
+date: 30/04/2021
+client: rare
+project: trojan
+item: trojan : 1 @ 1230.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021034
+date: 04/05/2021
+client: sralce
+project: lacer
+item: lacer : 1 @ 630.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021035
+date: 04/05/2021
+client: sapiens
+project: argocamilbusquets
+item: argocamilbusquets : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: exempt
+
+status: ok
+num: 2021036
+date: 07/05/2021
+client: hangar
+project: mutek
+item: mutek : 1 @ 150.00
+iva: 10.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021037
+date: 12/05/2021
+client: still
+project: intermarche
+item: intermarche : 1 @ 690.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: ok
+num: 2021038
+date: 18/05/2021
+client: fake
+project: aqueous
+item: aqueous : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021039
+date: 18/05/2021
+client: fake
+project: lentetorica
+item: lentetorica : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021040
+date: 18/05/2021
+client: sralce
+project: lacer
+item: lacer : 1 @ 660.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021041
+date: 18/05/2021
+client: canada
+project: rebelde
+item: rebelde : 1 @ 1144.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021042
+date: 18/05/2021
+client: canada
+project: thomas
+item: thomas : 1 @ 1700.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021043
+date: 18/05/2021
+client: phonos
+project: fromscratchmirlca
+item: fromscratchmirlca : 1 @ 61.21
+iva: 0.00
+irpf: 15.00
+roi: exempt
+
+status: ok
+num: 2021044
+date: 08/06/2021
+client: arepresents
+project: essilor
+item: essilor : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021045
+date: 09/06/2021
+client: ideasagitadas
+project: pescanova
+item: pescanova : 1 @ 500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021046
+date: 10/06/2021
+client: canada
+project: loewe
+item: loewe : 1 @ 660.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021047
+date: 15/06/2021
+client: biennal
+project: biennal
+item: biennal : 1 @ 100.00
+iva: 10.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021048
+date: 16/06/2021
+client: canada
+project: google
+item: google : 1 @ 1800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021049
+date: 22/06/2021
+client: canada
+project: shoeby
+item: shoeby : 1 @ 1500.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021050
+date: 25/06/2021
+client: propagandatunis
+project: orange
+item: orange : 1 @ 1500.00
+iva: 0.00
+irpf: 0.00
+roi: export
+
+status: ok
+num: 2021051
+date: 30/06/2021
+client: trizz
+project: reesesinside
+item: reesesinside : 1 @ 1020.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021052
+date: 03/07/2021
+client: rekorder
+project: puma
+item: puma : 1 @ 1500.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: ok
+num: 2021053
+date: 07/07/2021
+client: mammateam
+project: seat
+item: seat : 1 @ 240.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021054
+date: 07/07/2021
+client: trizz
+project: leagueoflegends
+item: leagueoflegends : 1 @ 630.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021055
+date: 07/07/2021
+client: sapiens
+project: rmc374saintsaens
+item: rmc374saintsaens : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: exempt
+
+status: ok
+num: 2021056
+date: 12/07/2021
+client: canada
+project: ikea
+item: ikea : 1 @ 1400.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021057
+date: 16/07/2021
+client: sralce
+project: naturesvariety
+item: naturesvariety : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021058
+date: 28/07/2021
+client: tf7
+project: ravello
+item: ravello : 1 @ 2130.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021059
+date: 12/08/2021
+client: leberg
+project: wick
+item: wick : 1 @ 240.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2021060
+date: 24/08/2021
+client: canada
+project: zaraorigins
+item: zaraorigins : 1 @ 1590.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021061
+date: 01/09/2021
+client: trizz
+project: riot
+item: riot : 1 @ 480.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021062
+date: 01/09/2021
+client: mcqueen
+project: bankcler
+item: bankcler : 1 @ 300.00
+iva: 0.00
+irpf: 0.00
+roi: export
+
+status: ok
+num: 2021063
+date: 09/09/2021
+client: productionclub
+project: ansufati
+item: ansufati : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021064
+date: 16/09/2021
+client: agosto
+project: turia
+item: turia : 1 @ 360.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021065
+date: 16/09/2021
+client: canadauk
+project: argoschristmas
+item: argoschristmas : 1 @ 1980.00
+iva: 0.00
+irpf: 0.00
+roi: export
+
+status: ok
+num: 2021066
+date: 16/09/2021
+client: lacaldera
+project: esther-ameba
+item: esther-ameba : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021067
+date: 16/09/2021
+client: albiñana
+project: airwick
+item: airwick : 1 @ 525.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021068
+date: 20/09/2021
+client: trizz
+project: pantene
+item: pantene : 1 @ 360.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: unpayed
+num: 2021069
+date: 28/09/2021
+client: canada
+project: elite
+item: elite : 1 @ 2070.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021070
+date: 28/09/2021
+client: trizz
+project: riot
+item: riot : 1 @ 330.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021071
+date: 28/09/2021
+client: glassy
+project: oikos
+item: oikos : 1 @ 150.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021072
+date: 30/09/2021
+client: lacosa
+project: fairy
+item: fairy : 1 @ 50.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021073
+date: 18/10/2021
+client: canada
+project: tous
+item: tous : 1 @ 810.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021074
+date: 18/10/2021
+client: farago
+project: vlisco
+item: vlisco : 1 @ 600.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: ok
+num: 2021075
+date: 25/10/2021
+client: cangrejo
+project: affinity
+item: affinity : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021076
+date: 28/10/2021
+client: china
+project: quiniela
+item: quiniela : 1 @ 870.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021077
+date: 28/10/2021
+client: canada
+project: bimbaylola
+item: bimbaylola : 1 @ 900.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021078
+date: 11/11/2021
+client: rare
+project: babbel
+item: babbel : 1 @ 250.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: payed
+num: 2021079
+date: 15/11/2021
+client: sapiens
+project: rmc375brahms
+item: rmc375brahms : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021080
+date: 15/11/2021
+client: canada
+project: turismooregon
+item: turismooregon : 1 @ 990.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021081
+date: 15/11/2021
+client: sralce
+project: bimbobaggels
+item: bimbobaggels : 1 @ 650.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021082
+date: 24/11/2021
+client: canadauk
+project: asda
+item: asda : 1 @ 1200.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2021083
+date: 26/11/2021
+client: trizz
+project: logitech
+item: logitech : 1 @ 1290.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021084
+date: 29/11/2021
+client: canada
+project: gostudent
+item: gostudent : 1 @ 1080.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021085
+date: 02/12/2021
+client: cit
+project: cuerpotransceptor
+item: cuerpotransceptor : 1 @ 50.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021086
+date: 13/12/2021
+client: lacosa
+project: pantene
+item: pantene : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021087
+date: 13/12/2021
+client: canada
+project: samsung
+item: samsung : 1 @ 2100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021088
+date: 21/12/2021
+client: canada
+project: pirelli
+item: pirelli : 1 @ 1350.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021089
+date: 21/12/2021
+client: canada
+project: decathlon
+item: decathlon : 1 @ 1872.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2021090
+date: 21/12/2021
+client: oriolvillar
+project: damm
+item: damm : 1 @ 1230.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: payed
+num: 2021091
+date: 27/12/2021
+client: sralce
+project: storyboard ref affinity ultima digital
+item: storyboard ref affinity ultima digital : 1 @ 21.00
+iva: 0.00
+irpf: 0.00
+roi: "114
+
+status: ok
+num: 2021092
+date: 29/12/2021
+client: linabautista
+project: honoraris trobada
+item: honoraris trobada : 1 @ 10.00
+iva: 0.00
+irpf: 0.00
+roi: "15
+
+status: ok
+num: 2022001
+date: 5/1/2022
+client: sapiens
+project: il.lustració argo martinez hidalgo
+item: il.lustració argo martinez hidalgo : 1 @ 0.00
+iva: 0.00
+irpf: 0.00
+roi: 22.50 €
+
+status: ok
+num: 2022002
+date: 28/1/2022
+client: bambina
+project: damb fcb
+item: damb fcb : 1 @ 750.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2022003
+date: 18/2/2022
+client: lee
+project: orange
+item: orange : 1 @ 720.00
+iva: 2100.00
+irpf: 1500.00
+roi: 
+
+status: ok
+num: 2022004
+date: 18/2/2022
+client: glassy
+project: cupra
+item: cupra : 1 @ 800.00
+iva: 2100.00
+irpf: 1500.00
+roi: 
+
+status: sent
+num: 2022005
+date: 28/2/2022
+client: canada
+project: zaraorigins
+item: zaraorigins : 1 @ 2200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022006
+date: 28/2/2022
+client: canada
+project: jbl
+item: jbl : 1 @ 3000.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2022007
+date: 16/3/2022
+client: fundaciontelefonica
+project: worshoplivecodingurduliz
+item: worshoplivecodingurduliz : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022008
+date: 16/3/2022
+client: canada
+project: mahou
+item: mahou : 1 @ 1650.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2022009
+date: 16/3/2022
+client: oriolvillar
+project: espetectarradellas
+item: espetectarradellas : 1 @ 480.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022010
+date: 16/3/2022
+client: hangar
+project: posterviu
+item: posterviu : 1 @ 100.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022011
+date: 18/3/2022
+client: sapiens
+project: rmc376paulineviardot
+item: rmc376paulineviardot : 1 @ 200.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: ok
+num: 2022012
+date: 23/3/2022
+client: ljudmila
+project: onthefly
+item: onthefly : 1 @ 1350.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: ok
+num: 2022013
+date: 29/3/2022
+client: yaya
+project: glenrothes
+item: glenrothes : 1 @ 624.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: payed
+num: 2022014
+date: 5/4/2022
+client: mirror
+project: garnier
+item: garnier : 1 @ 1200.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: sent
+num: 2022015
+date: 20/4/2022
+client: trizz
+project: castello
+item: castello : 1 @ 1440.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022016
+date: 20/4/2022
+client: bambina
+project: donuts
+item: donuts : 1 @ 1110.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022017
+date: 29/4/2022
+client: canada
+project: adidas
+item: adidas : 1 @ 1100.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022018
+date: 9/5/2022
+client: canada
+project: pepejeans
+item: pepejeans : 1 @ 1080.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022019
+date: 9/5/2022
+client: leberg
+project: mercedesclassa
+item: mercedesclassa : 1 @ 2000.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: sent
+num: 2022020
+date: 9/5/2022
+client: lacosa
+project: pantene
+item: pantene : 1 @ 1170.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022021
+date: 9/5/2022
+client: cangrejo
+project: educaixa
+item: educaixa : 1 @ 800.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022022
+date: 16/5/2022
+client: ljudmila
+project: algoravealgopolis
+item: algoravealgopolis : 1 @ 150.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: payed
+num: 2022023
+date: 18/5/2022
+client: cit
+project: transceptor
+item: transceptor : 1 @ 50.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022024
+date: 19/5/2022
+client: lee
+project: aldi
+item: aldi : 1 @ 1300.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022025
+date: 19/5/2022
+client: canada
+project: bankinter
+item: bankinter : 1 @ 1650.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022026
+date: 25/5/2022
+client: llibreriacalders
+project: sessions
+item: sessions : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022027
+date: 31/5/2022
+client: canada
+project: adidas
+item: adidas : 1 @ 180.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022028
+date: 31/5/2022
+client: leberg
+project: mercedesme
+item: mercedesme : 1 @ 3000.00
+iva: 0.00
+irpf: 0.00
+roi: roi
+
+status: sent
+num: 2022029
+date: 9/6/2022
+client: oriolvillar
+project: tarradellas
+item: tarradellas : 1 @ 600.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022030
+date: 9/6/2022
+client: sapiens
+project: argo#pellicer
+item: argo#pellicer : 1 @ 150.00
+iva: 0.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022031
+date: 10/6/2022
+client: leberg
+project: mercedestruck
+item: mercedestruck : 1 @ 420.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: sent
+num: 2022032
+date: 14/6/2022
+client: canada
+project: vrbo
+item: vrbo : 1 @ 1320.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022033
+date: 16/6/2022
+client: canada
+project: larios
+item: larios : 1 @ 1350.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022034
+date: 22/6/2022
+client: canada
+project: pepejeans
+item: pepejeans : 1 @ 90.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022035
+date: 6/7/2022
+client: productionclub
+project: mcauto
+item: mcauto : 1 @ 420.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022036
+date: 12/7/2022
+client: hangar
+project: perfo-finalevent
+item: perfo-finalevent : 1 @ 200.00
+iva: 10.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022037
+date: 20/7/2022
+client: hangar
+project: collectimage
+item: collectimage : 1 @ 200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022038
+date: 16/8/2022
+client: newnewnew
+project: saks
+item: saks : 1 @ 910.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022039
+date: 25/8/2022
+client: easydoesit
+project: bmw
+item: bmw : 1 @ 1365.00
+iva: 0.00
+irpf: 0.00
+roi: 
+
+status: sent
+num: 2022040
+date: 5/9/2022
+client: cangrejo
+project: lacaixa
+item: lacaixa : 1 @ 450.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022041
+date: 5/9/2022
+client: wester
+project: videconsequencieslloret
+item: videconsequencieslloret : 1 @ 1200.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: sent
+num: 2022042
+date: 13/9/2022
+client: blur
+project: amazon
+item: amazon : 1 @ 1330.00
+iva: 21.00
+irpf: 15.00
+roi: 
+
+status: payed
+num: 2022043
+date: 21/9/2022
+client: bambina
+project: tarradellas
+item: tarradellas : 1 @ 1190.00
+iva: 21.00
+irpf: 15.00
+roi:
+

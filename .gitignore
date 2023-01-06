@@ -1,0 +1,5 @@
+/.config/dwm/.git
+*.def.h
+*.o
+*.diff
+*~

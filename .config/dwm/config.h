@@ -103,7 +103,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 
 	{ MODKEY,                       XK_p,      setlayout,      {0} },
-	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ MODKEY|ShiftMask,             XK_F12,      quit,           {0} },
 	/* { MODKEY,                       XK_t,      spawn,          {.v = kritacmd } }, */
 	{ MODKEY,                       XK_i,      spawn,          {.v = browsercmd } },
 	{ MODKEY,                       XK_f,      spawn,          {.v = filemanagercmd } },

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+client=$1
+project=$2
+id=$(date +%Y%m%d)
+mkdir -p ~/work/$client-$id-$project/docs
+mkdir ~/work/$client-$id-$project/$project-kra
