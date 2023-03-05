@@ -7,6 +7,7 @@ export DOOMDIR=$HOME/.config/doom
 export GOPATH=$HOME/.local/share/go
 export GOBIN=$HOME/.local/bin
 export BILLINVOICES=$HOME/comptabilitat/factures
+export hidrive=hidrive:/users/rogerpibernat
 
 alias billtop='bill -f toplap-registry.dat -P toplap-providers.dat -c toplap-clients.dat -x toplap-expenses.dat'
 

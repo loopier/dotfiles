@@ -111,13 +111,14 @@ IDE:
       documents-dock: ""
       help-dock: ""
       post-dock: ""
-    geometry: AdnQywADAAD/////AAAAFgAABX4AAAWeAAAAAAAAABcAAAV9AAAFnQAAAAAAAAAACgAAAAAAAAAAFwAABX0AAAWd
-    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF4A////AAAAAQAAAiQAAAVa/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFQAAAS0AAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAUMAAAQsAAAATAD///8AAANZAAAFWgAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+    geometry: AdnQywADAAAAAAd/AAAAFgAAC/4AAAQ2AAAHgAAAABcAAAv9AAAENQAAAAAAAAAAB4AAAAeAAAAAFwAAC/0AAAQ1
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF4A////AAAAAQAAAiQAAAPy/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFQAAAQYAAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAARwAAALrAAAATAD///8AAAJZAAAD8gAAAAEAAAACAAAAAQAAAAL8AAAAAA==
   postWindow:
     lineWrap: true
     scrollback: 1000
   recentDocuments: !QVariantList
-    - /home/r/work/workshop-canodrom.scd
+    - /home/r/loopier/archive-loopier/loopier-20221221-solstice/videoclip.scd
+    - /home/r/loopier/archive-loopier/loopier-20221221-solstice/solstice.scd
   shortcuts:
     editor-copy-line-down: Ctrl+Shift+Down
     editor-go-to-next-empty-line: Alt+Num+Down

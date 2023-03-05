@@ -27,6 +27,8 @@ includePaths:
     -   /home/r/.local/share/SuperCollider/downloaded-quarks/ddwCommon
     -   /home/r/.local/share/SuperCollider/downloaded-quarks/ddwGUIEnhancements
     -   /home/r/.local/share/SuperCollider/downloaded-quarks/ddwMIDI
+    -   /home/r/.local/share/SuperCollider/Extensions/Ziva
+    -   /home/r/.local/share/SuperCollider/Extensions/Animatron
 excludePaths:
     []
 postInlineWarnings: false

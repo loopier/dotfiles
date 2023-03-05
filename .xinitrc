@@ -5,6 +5,7 @@
 
 setxkbmap gb extd -option caps:escape
 xbindkeys
+numlockx on
 
 # KDE applications theme manager
 export QT_QPA_PLATFORMTHEME="qt5ct"
@@ -25,8 +26,10 @@ xsetwacom set "Wacom Experss Key Remote Pad pad" MapToOutput HEAD-0
 
 wacom-map-expresskeyremote
 
-slstatus &
 
 # exec startplasma-x11
-# exec bubbles-rc
-exec dwm
+
+# slstatus &
+# exec dwm
+
+openbox-session

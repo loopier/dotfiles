@@ -1,0 +1,53 @@
+#!/bin/sh
+
+function help() {
+   echo "Syntax: hidrive [options] <command>"
+   echo ""
+   echo "options:"
+   echo "-h     Print this help"
+   echo "-u     Update urgency (low, normal, critical)"
+   echo ""
+   echo "<command> is any 'rclone' command."
+   echo ""
+   echo "config file: ~/.config/hidrive.conf"
+}
+
+urgency=NULL
+
+while getopts ":hu:" option; do
+    case $option in
+        h) help
+           exit;;
+        u) urgency=$OPTARG
+           shift 2
+           ;;
+        \?) echo "Error: invalid option: $OPTARG"
+            exit;;
+    esac
+done
+
+CMD=$1
+
+if [ -z $1 ]; then
+    help
+    exit 1
+fi
+
+source $HOME/.config/hidrive.conf
+
+dirs=(${critical[@]})
+
+if [ $urgency == "normal" ]; then
+    dirs=(${dirs[@]} ${normal[@]})
+elif [ $urgency == "low" ]; then
+    dirs=(${dirs[@]} ${normal[@]} ${low[@]})
+fi
+
+# echo ${dirs[@]}
+
+for dir in ${dirs[@]}; do
+    local="$local_root/$dir"
+    remote="$remote_root/$dir"
+    echo "running: rclone $CMD -P $local $remote"
+    rclone $CMD -P --skip-links $local $remote
+done

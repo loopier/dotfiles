@@ -1,0 +1,18 @@
+#!/bin/sh
+
+/usr/bin/rclone -P copy hidrive:/users/rogerpibernat/work home/r/work 
+/usr/bin/rclone -P copy hidrive:/users/rogerpibernat/archive home/r/archive 
+/usr/bin/rclone -P copy hidrive:/users/rogerpibernat/loopier home/r/loopier 
+/usr/bin/rclone -P copy hidrive:/users/rogerpibernat/admin home/r/admin 
+/usr/bin/rclone -P copy hidrive:/users/rogerpibernat/projects home/r/projects 
+/usr/bin/rclone -P copy hidrive:/users/rogerpibernat/books home/r/books 
+/usr/bin/rclone -P copy hidrive:/users/rogerpibernat/comptabilitat home/r/comptabilitat 
+/usr/bin/rclone -P copy hidrive:/users/rogerpibernat/.dotfiles home/r/.dotfiles 
+/usr/bin/rclone -P sync /home/r/work hidrive:/users/rogerpibernat/work
+/usr/bin/rclone -P sync /home/r/archive hidrive:/users/rogerpibernat/archive
+/usr/bin/rclone -P sync /home/r/loopier hidrive:/users/rogerpibernat/loopier
+/usr/bin/rclone -P sync /home/r/admin hidrive:/users/rogerpibernat/admin
+/usr/bin/rclone -P sync /home/r/projects hidrive:/users/rogerpibernat/projects
+/usr/bin/rclone -P sync /home/r/books hidrive:/users/rogerpibernat/books
+/usr/bin/rclone -P sync /home/r/comptabilitat hidrive:/users/rogerpibernat/comptabilitat
+/usr/bin/rclone -P sync /home/r/.dotfiles hidrive:/users/rogerpibernat/.dotfiles

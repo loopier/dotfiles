@@ -64,6 +64,7 @@ static const char *browsercmd[]  = { "firefox", NULL };
 static const char *filemanagercmd[]  = { "fm", NULL }; /* script in ~/.local/bin/ */
 static const char *emacscmd[]  = { "emacs", NULL };
 static const char *livecodecmd[]  = { "livecode", NULL };
+static const char *roficmd[]  = { "rofi", "-show", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -84,7 +85,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY|ShiftMask,             XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY|ShiftMask,             XK_m,      setlayout,      {.v = &layouts[2]} },
-	{ MODKEY,                       XK_space,  setlayout,      {0} },
+	{ MODKEY|ControlMask,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
@@ -109,6 +110,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_f,      spawn,          {.v = filemanagercmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = emacscmd } },
 	{ MODKEY,                       XK_l,      spawn,          {.v = livecodecmd } },
+	{ MODKEY,                       XK_space,      spawn,          {.v = roficmd } },
 };
 
 /* button definitions */

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+ARGS=$(pwd)/*.mp4
+echo $ARGS
+
+for i in $ARGS;
+  #do name=`echo "$i" | cut -d'.' -f1`
+  #echo "$name"
+  #ffmpeg -i "$i" "${name}.mov"
+  echo "$i"
+done

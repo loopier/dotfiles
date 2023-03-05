@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# DIRS=("work" "admin" "comptabilitat" "books" ".dotfiles" "org" "projects" "archive" "loopier")
+DIRS=("work" "admin" "comptabilitat" "books" ".dotfiles" "org")
+
+# function watch {
+#     inotifywait --recursive --event modify,move,create,delete $DIR
+# }
+
+# while watch; do
+#     echo "hidrive:/users/rogerpibernat/$DIR"
+#     tree $DIR
+# done
+
+for d in "${DIRS[@]}"; do
+    echo $d
+done

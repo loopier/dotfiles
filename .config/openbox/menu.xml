@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="Arduino IDE"> <action name="Execute">
+                <execute>arduino</execute>
+            </action> </item>
+            <item label="CMake"> <action name="Execute">
+                <execute>cmake-gui</execute>
+            </action> </item>
+            <item label="CMake curses GUI (ccmake)"> <action name="Execute">
+                <execute>alacritty -e ccmake</execute>
+            </action> </item>
+            <item label="Godot Engine"> <action name="Execute">
+                <execute>godot</execute>
+            </action> </item>
+            <item label="IDLE (Python IDE)"> <action name="Execute">
+                <execute>idle</execute>
+            </action> </item>
+            <item label="Processing"> <action name="Execute">
+                <execute>processing</execute>
+            </action> </item>
+            <item label="Python"> <action name="Execute">
+                <execute>alacritty -e python</execute>
+            </action> </item>
+            <item label="SuperCollider IDE"> <action name="Execute">
+                <execute>scide</execute>
+            </action> </item>
+            <item label="Teensy Loader"> <action name="Execute">
+                <execute>teensy-loader</execute>
+            </action> </item>
+            <item label="UserFeedback Console"> <action name="Execute">
+                <execute>UserFeedbackConsole</execute>
+            </action> </item>
+        </menu>
+        <menu id="2" label="Editors">
+            <item label="Emacs"> <action name="Execute">
+                <execute>alacritty -e emacs</execute>
+            </action> </item>
+            <item label="Neovim"> <action name="Execute">
+                <execute>alacritty -e nvim</execute>
+            </action> </item>
+            <item label="Vi"> <action name="Execute">
+                <execute>alacritty -e vi</execute>
+            </action> </item>
+            <item label="Vim"> <action name="Execute">
+                <execute>alacritty -e vim</execute>
+            </action> </item>
+        </menu>
+        <menu id="18" label="Games">
+            <menu id="9" label="Adventure">
+                <item label="Sclient"> <action name="Execute">
+                    <execute>sclient</execute>
+                </action> </item>
+            </menu>
+            <menu id="10" label="Arcade">
+                <item label="PacMan"> <action name="Execute">
+                    <execute>pacman</execute>
+                </action> </item>
+            </menu>
+        </menu>
+        <menu id="6" label="Graphics">
+            <item label="Blender"> <action name="Execute">
+                <execute>blender</execute>
+            </action> </item>
+            <item label="FontForge"> <action name="Execute">
+                <execute>fontforge</execute>
+            </action> </item>
+            <item label="GNU Image Manipulation Program"> <action name="Execute">
+                <execute>gimp-2.10</execute>
+            </action> </item>
+            <item label="GraphicsMagick"> <action name="Execute">
+                <execute>gm display logo:</execute>
+            </action> </item>
+            <item label="Gwenview"> <action name="Execute">
+                <execute>gwenview</execute>
+            </action> </item>
+            <item label="Inkscape"> <action name="Execute">
+                <execute>inkscape</execute>
+            </action> </item>
+            <item label="Krita KDE Bitmap Graphics Editor"> <action name="Execute">
+                <execute>krita</execute>
+            </action> </item>
+            <item label="LibreOffice Draw"> <action name="Execute">
+                <execute>libreoffice --draw</execute>
+            </action> </item>
+            <item label="Scribus"> <action name="Execute">
+                <execute>scribus</execute>
+            </action> </item>
+            <item label="The GIMP"> <action name="Execute">
+                <execute>gimp</execute>
+            </action> </item>
+            <item label="Viewnior"> <action name="Execute">
+                <execute>viewnior</execute>
+            </action> </item>
+            <item label="XDvi"> <action name="Execute">
+                <execute>xdvi</execute>
+            </action> </item>
+            <item label="XGlyph"> <action name="Execute">
+                <execute>xglyph</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="Ardour"> <action name="Execute">
+                <execute>ardour7</execute>
+            </action> </item>
+            <item label="BespokeSynth"> <action name="Execute">
+                <execute>BespokeSynth</execute>
+            </action> </item>
+            <item label="Calf Plugin Pack for JACK"> <action name="Execute">
+                <execute>calfjackhost</execute>
+            </action> </item>
+            <item label="Carla"> <action name="Execute">
+                <execute>carla</execute>
+            </action> </item>
+            <item label="Carla Control"> <action name="Execute">
+                <execute>carla-control</execute>
+            </action> </item>
+            <item label="CPlay"> <action name="Execute">
+                <execute>alacritty -e cplay</execute>
+            </action> </item>
+            <item label="Dexed"> <action name="Execute">
+                <execute>Dexed</execute>
+            </action> </item>
+            <item label="DragonflyEarlyReflections"> <action name="Execute">
+                <execute>DragonflyEarlyReflections</execute>
+            </action> </item>
+            <item label="DragonflyHallReverb"> <action name="Execute">
+                <execute>DragonflyHallReverb</execute>
+            </action> </item>
+            <item label="DragonflyPlateReverb"> <action name="Execute">
+                <execute>DragonflyPlateReverb</execute>
+            </action> </item>
+            <item label="DragonflyRoomReverb"> <action name="Execute">
+                <execute>DragonflyRoomReverb</execute>
+            </action> </item>
+            <item label="Freewheeling"> <action name="Execute">
+                <execute>fweelin</execute>
+            </action> </item>
+            <item label="Helm"> <action name="Execute">
+                <execute>helm-synth</execute>
+            </action> </item>
+            <item label="Helvum"> <action name="Execute">
+                <execute>helvum</execute>
+            </action> </item>
+            <item label="Hydrogen"> <action name="Execute">
+                <execute>hydrogen</execute>
+            </action> </item>
+            <item label="JACK meterbridge"> <action name="Execute">
+                <execute>meterbridge -t vu alsa_pcm:playback_1 alsa_pcm:playback_2</execute>
+            </action> </item>
+            <item label="Luppp"> <action name="Execute">
+                <execute>luppp</execute>
+            </action> </item>
+            <item label="OBS Studio"> <action name="Execute">
+                <execute>obs</execute>
+            </action> </item>
+            <item label="Qt V4L2 test Utility"> <action name="Execute">
+                <execute>qv4l2</execute>
+            </action> </item>
+            <item label="Qt V4L2 video capture utility"> <action name="Execute">
+                <execute>qvidcap</execute>
+            </action> </item>
+            <item label="Qtractor"> <action name="Execute">
+                <execute>qtractor</execute>
+            </action> </item>
+            <item label="RaySession"> <action name="Execute">
+                <execute>raysession</execute>
+            </action> </item>
+            <item label="Sonic Pi"> <action name="Execute">
+                <execute>sonic-pi</execute>
+            </action> </item>
+            <item label="Tenacity"> <action name="Execute">
+                <execute>env UBUNTU_MENUPROXY=0 tenacity</execute>
+            </action> </item>
+            <item label="VLC media player"> <action name="Execute">
+                <execute>vlc</execute>
+            </action> </item>
+            <item label="VLC media player"> <action name="Execute">
+                <execute>qvlc</execute>
+            </action> </item>
+            <item label="ZynAddSubFX - Alsa"> <action name="Execute">
+                <execute>zynaddsubfx -I alsa -O alsa</execute>
+            </action> </item>
+            <item label="ZynAddSubFX - Jack"> <action name="Execute">
+                <execute>zynaddsubfx -I jack -O jack</execute>
+            </action> </item>
+            <item label="ZynAddSubFX - Jack (multi channel)"> <action name="Execute">
+                <execute>zynaddsubfx -I jack -O jack-multi</execute>
+            </action> </item>
+            <item label="ZynAddSubFX - OSS"> <action name="Execute">
+                <execute>zynaddsubfx -I OSS -O OSS</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Avahi SSH Server Browser"> <action name="Execute">
+                <execute>bssh</execute>
+            </action> </item>
+            <item label="Avahi VNC Server Browser"> <action name="Execute">
+                <execute>bvnc</execute>
+            </action> </item>
+            <item label="Chromium"> <action name="Execute">
+                <execute>chromium</execute>
+            </action> </item>
+            <item label="FileZilla"> <action name="Execute">
+                <execute>filezilla</execute>
+            </action> </item>
+            <item label="FireFox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="Microsoft Teams - Preview"> <action name="Execute">
+                <execute>teams</execute>
+            </action> </item>
+            <item label="Telegram Desktop"> <action name="Execute">
+                <execute>telegram-desktop</execute>
+            </action> </item>
+            <item label="Thunderbird"> <action name="Execute">
+                <execute>thunderbird</execute>
+            </action> </item>
+            <item label="Tresorit"> <action name="Execute">
+                <execute>tresorit</execute>
+            </action> </item>
+            <item label="W3m"> <action name="Execute">
+                <execute>alacritty -e w3m</execute>
+            </action> </item>
+            <item label="w3m"> <action name="Execute">
+                <execute>alacritty -e w3m /usr/share/doc/w3m/MANUAL.html</execute>
+            </action> </item>
+            <item label="Zoom"> <action name="Execute">
+                <execute>zoom</execute>
+            </action> </item>
+        </menu>
+        <menu id="3" label="Office">
+            <item label="Gnumeric"> <action name="Execute">
+                <execute>gnumeric</execute>
+            </action> </item>
+            <item label="LibreOffice Calc"> <action name="Execute">
+                <execute>libreoffice --calc</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice --impress</execute>
+            </action> </item>
+            <item label="LibreOffice Math"> <action name="Execute">
+                <execute>libreoffice --math</execute>
+            </action> </item>
+            <item label="LibreOffice Writer"> <action name="Execute">
+                <execute>libreoffice --writer</execute>
+            </action> </item>
+            <item label="Okular"> <action name="Execute">
+                <execute>okular</execute>
+            </action> </item>
+            <item label="ONLYOFFICE Desktop Editors"> <action name="Execute">
+                <execute>onlyoffice-desktopeditors</execute>
+            </action> </item>
+            <item label="Xournal++"> <action name="Execute">
+                <execute>xournalpp</execute>
+            </action> </item>
+        </menu>
+        <menu id="39" label="Other">
+            <item label="AllRADecoder"> <action name="Execute">
+                <execute>AllRADecoder</execute>
+            </action> </item>
+            <item label="BinauralDecoder"> <action name="Execute">
+                <execute>BinauralDecoder</execute>
+            </action> </item>
+            <item label="CoordinateConverter"> <action name="Execute">
+                <execute>CoordinateConverter</execute>
+            </action> </item>
+            <item label="Decent Sampler"> <action name="Execute">
+                <execute>DecentSampler</execute>
+            </action> </item>
+            <item label="DirectionalCompressor"> <action name="Execute">
+                <execute>DirectionalCompressor</execute>
+            </action> </item>
+            <item label="DirectivityShaper"> <action name="Execute">
+                <execute>DirectivityShaper</execute>
+            </action> </item>
+            <item label="DistanceCompensator"> <action name="Execute">
+                <execute>DistanceCompensator</execute>
+            </action> </item>
+            <item label="DualDelay"> <action name="Execute">
+                <execute>DualDelay</execute>
+            </action> </item>
+            <item label="EnergyVisualizer"> <action name="Execute">
+                <execute>EnergyVisualizer</execute>
+            </action> </item>
+            <item label="FdnReverb"> <action name="Execute">
+                <execute>FdnReverb</execute>
+            </action> </item>
+            <item label="MatrixMultiplier"> <action name="Execute">
+                <execute>MatrixMultiplier</execute>
+            </action> </item>
+            <item label="MultiBandCompressor"> <action name="Execute">
+                <execute>MultiBandCompressor</execute>
+            </action> </item>
+            <item label="MultiEncoder"> <action name="Execute">
+                <execute>MultiEncoder</execute>
+            </action> </item>
+            <item label="MultiEQ"> <action name="Execute">
+                <execute>MultiEQ</execute>
+            </action> </item>
+            <item label="OmniCompressor"> <action name="Execute">
+                <execute>OmniCompressor</execute>
+            </action> </item>
+            <item label="ProbeDecoder"> <action name="Execute">
+                <execute>ProbeDecoder</execute>
+            </action> </item>
+            <item label="RoomEncoder"> <action name="Execute">
+                <execute>RoomEncoder</execute>
+            </action> </item>
+            <item label="SceneRotator"> <action name="Execute">
+                <execute>SceneRotator</execute>
+            </action> </item>
+            <item label="SimpleDecoder"> <action name="Execute">
+                <execute>SimpleDecoder</execute>
+            </action> </item>
+            <item label="StereoEncoder"> <action name="Execute">
+                <execute>StereoEncoder</execute>
+            </action> </item>
+            <item label="ToolBox"> <action name="Execute">
+                <execute>ToolBox</execute>
+            </action> </item>
+        </menu>
+        <menu id="4" label="Science">
+            <item label="Gnuplot"> <action name="Execute">
+                <execute>alacritty -e gnuplot</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="Alacritty"> <action name="Execute">
+                <execute>alacritty</execute>
+            </action> </item>
+            <item label="Dolphin"> <action name="Execute">
+                <execute>dolphin</execute>
+            </action> </item>
+            <item label="GIT"> <action name="Execute">
+                <execute>alacritty -e git</execute>
+            </action> </item>
+            <item label="Xfce Terminal"> <action name="Execute">
+                <execute>xfce4-terminal</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <item label="ARandR"> <action name="Execute">
+                    <execute>arandr</execute>
+                </action> </item>
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="Qt5 Settings"> <action name="Execute">
+                    <execute>qt5ct</execute>
+                </action> </item>
+                <item label="Tint2 Settings"> <action name="Execute">
+                    <execute>tint2conf</execute>
+                </action> </item>
+                <item label="Xfce Terminal Settings"> <action name="Execute">
+                    <execute>xfce4-terminal --preferences</execute>
+                </action> </item>
+            </menu>
+            <item label="Avahi Zeroconf Browser"> <action name="Execute">
+                <execute>avahi-discover</execute>
+            </action> </item>
+            <item label="GParted"> <action name="Execute">
+                <execute>gparted</execute>
+            </action> </item>
+            <item label="Hardware Locality lstopo"> <action name="Execute">
+                <execute>lstopo</execute>
+            </action> </item>
+            <item label="Htop"> <action name="Execute">
+                <execute>alacritty -e htop</execute>
+            </action> </item>
+            <item label="OpenJDK Java 17 Console"> <action name="Execute">
+                <execute>/usr/lib/jvm/java-17-openjdk/bin/jconsole</execute>
+            </action> </item>
+            <item label="OpenJDK Java 17 Shell"> <action name="Execute">
+                <execute>alacritty -e /usr/lib/jvm/java-17-openjdk/bin/jshell</execute>
+            </action> </item>
+            <item label="Psensor"> <action name="Execute">
+                <execute>psensor</execute>
+            </action> </item>
+            <item label="Pstree"> <action name="Execute">
+                <execute>alacritty -e pstree.x11</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>alacritty -e pstree</execute>
+            </action> </item>
+            <item label="TeXconfig"> <action name="Execute">
+                <execute>alacritty -e texconfig</execute>
+            </action> </item>
+            <item label="Tint2"> <action name="Execute">
+                <execute>tint2</execute>
+            </action> </item>
+            <item label="Top"> <action name="Execute">
+                <execute>alacritty -e top</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="About Xfce"> <action name="Execute">
+                <execute>xfce4-about</execute>
+            </action> </item>
+            <item label="Ark"> <action name="Execute">
+                <execute>ark</execute>
+            </action> </item>
+            <item label="Info"> <action name="Execute">
+                <execute>alacritty -e info</execute>
+            </action> </item>
+            <item label="TeXdoctk"> <action name="Execute">
+                <execute>texdoctk</execute>
+            </action> </item>
+            <item label="Xev"> <action name="Execute">
+                <execute>alacritty -e xev</execute>
+            </action> </item>
+            <item label="Xsetroot"> <action name="Execute">
+                <execute>xsetroot</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>
