@@ -1,53 +1,56 @@
 #!/bin/sh
 
 function help() {
-   echo "Syntax: hidrive [options] <command>"
+   echo "Syntax: hidrive [options] <push|pull> [dir]"
    echo ""
    echo "options:"
    echo "-h     Print this help"
    echo "-u     Update urgency (low, normal, critical)"
    echo ""
-   echo "<command> is any 'rclone' command."
+   echo "<push> will rclone-sync 'dir' from local to remote."
+   echo "<pull> will rclone-copy 'dir' from remote to local."
+   echo "[dir] is the directory to work on. Defaults to current dir."
    echo ""
    echo "config file: ~/.config/hidrive.conf"
 }
 
-urgency=NULL
+# urgency=NULL
 
 while getopts ":hu:" option; do
     case $option in
         h) help
            exit;;
-        u) urgency=$OPTARG
-           shift 2
-           ;;
+        # u) urgency=$OPTARG
+        #    shift 2
+        #    ;;
         \?) echo "Error: invalid option: $OPTARG"
             exit;;
     esac
 done
 
-CMD=$1
+source $HOME/.config/hidrive.conf
 
-if [ -z $1 ]; then
+CMD=$1
+DIR=$2
+
+if [ -z $DIR ]; then
+    DIR=$PWD
+fi
+
+REMOTE=$(echo "${DIR/$HOME/$remote_root}")
+
+if [ $CMD == "push" ]; then
+    CMD=sync
+    FROM=$DIR
+    TO=$REMOTE
+elif [ $CMD == "pull" ]; then
+    CMD=copy
+    FROM=$REMOTE
+    TO=$DIR
+else
     help
     exit 1
 fi
 
-source $HOME/.config/hidrive.conf
-
-dirs=(${critical[@]})
-
-if [ $urgency == "normal" ]; then
-    dirs=(${dirs[@]} ${normal[@]})
-elif [ $urgency == "low" ]; then
-    dirs=(${dirs[@]} ${normal[@]} ${low[@]})
-fi
-
-# echo ${dirs[@]}
-
-for dir in ${dirs[@]}; do
-    local="$local_root/$dir"
-    remote="$remote_root/$dir"
-    echo "running: rclone $CMD -P $local $remote"
-    rclone $CMD -P --skip-links $local $remote
-done
+echo "$CMD from $FROM to $TO"
+rclone $CMD -P --skip-links $FROM $TO
