@@ -14,7 +14,7 @@ Version=202
 ViewPropsTimestamp=2022,8,22,17,7,24.423
 
 [IconsMode]
-PreviewSize=240
+PreviewSize=256
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false

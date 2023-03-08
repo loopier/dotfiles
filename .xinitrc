@@ -32,4 +32,5 @@ wacom-map-expresskeyremote
 # slstatus &
 # exec dwm
 
+nitrogen --restore &
 openbox-session
