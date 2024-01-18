@@ -78,10 +78,12 @@
 ;; new
 (setq org-M-RET-may-split-line nil)
 (map! (:map org-mode-map :n "<return>" 'org-toggle-checkbox))
+(map! (:map org-mode-map :localleader :n "," 'org-babel-execute-src-block))
+(map! (:map org-mode-map :localleader :n "t" 'org-set-tags-command))
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (add-to-list 'auto-mode-alist '("\\.txt\\'" . org-mode))
-(setq org-directory "~/Dropbox/org/")
+(setq org-directory "~/org/")
 (setq org-default-notes-file (concat org-directory "/main.org"))
 (setq org-capture-templates
       '("w" "work" plain (file "~/Drobpox/org/work.org")
@@ -100,7 +102,7 @@
 ;; (defun org-roam--extract-titles-custom (headline title alias))
 ;; (setq org-roam-title-sources org-roam--extract-titels-custom)
 (custom-set-faces
- '(org-level-1 ((t (:family "mononoki" :foreground "#fcfcfc" :height 40 :weight bold))))
+ '(org-level-1 ((t (:family "mononoki" :foreground "#62b2af" :weight bold))))
  '(org-tag ((t (:height 80)))))
 
 (setq org-todo-keyword-faces
@@ -160,19 +162,23 @@
 ;; TODO it works everything but the 'if' statement, and needs tweaking
 (defun olivetti-poet ()
   "Face remapping for buffers in olivetty mode."
-  (face-remap-add-relative 'default :family "CMU Serif" :height 130)
-  ;; (face-remap-add-relative 'default :family "DejaVu Sans Mono" :height 130)
-  (face-remap-add-relative 'fixed-pitch :family "DejaVu Sans Mono")
-  (face-remap-add-relative 'variable-pitch :family "IBM Plex Serif")
-  (face-remap-add-relative 'org-level-1 :height (lambda (_x) (poet-theme--height 1)) :weight 'bold)
-  ;; (if (custom-theme-enabled-p 'poet)
-  ;;     (load-theme 'doom-one)
-  ;;   (load-theme 'poet)
-  ;;   )
-  )
+  (if (custom-theme-enabled-p 'poet)
+      (progn ;; lets you evaluate more than one sexp for the true case
+        (load-theme 'doom-breeze-dark)
+        (face-remap-add-relative 'default :background "#191b1e")
+        )
+    (load-theme 'poet)
+    (face-remap-add-relative 'default :family "CMU Serif" :height 130 :background "white")
+    ;; (face-remap-add-relative 'default :family "DejaVu Sans Mono" :height 130)
+    (face-remap-add-relative 'fixed-pitch :family "DejaVu Sans Mono")
+    (face-remap-add-relative 'variable-pitch :family "IBM Plex Serif")
+    (face-remap-add-relative 'org-level-1 :height (lambda (_x) (poet-theme--height 1)) :weight 'bold)
+    ))
 
 ;; (add-hook 'olivetti-mode-hook (lambda () (variable-pitch-mode 1)))
 ;; (add-hook 'olivetti-mode-hook #'olivetti-poet)
+;; (add-hook 'change-major-mode-hook #')
+;; (add-hook 'olivetti-mode-hook (lambda () (enable-theme 'poet)))
 
 ;; visual line navigation
 ;; Make movement keys work like they should

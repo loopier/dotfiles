@@ -6,7 +6,7 @@
  '(ansi-color-names-vector
    ["#282c34" "#ff6c6b" "#98be65" "#ECBE7B" "#51afef" "#c678dd" "#46D9FF" "#bbc2cf"])
  '(custom-safe-themes
-   '("613aedadd3b9e2554f39afe760708fc3285bf594f6447822dd29f947f0775d6c" "a491aba04e372176dd3f36f76243d0351b01dcdfea9a3b59c16945929459fbde" "028c226411a386abc7f7a0fba1a2ebfae5fe69e2a816f54898df41a6a3412bb5" "f490984d405f1a97418a92f478218b8e4bcc188cf353e5dd5d5acd2f8efd0790" "28a104f642d09d3e5c62ce3464ea2c143b9130167282ea97ddcc3607b381823f" "2f1518e906a8b60fac943d02ad415f1d8b3933a5a7f75e307e6e9a26ef5bf570" "2d035eb93f92384d11f18ed00930e5cc9964281915689fa035719cab71766a15" default))
+   '("3ad40625fe586d8dc43abf9d1a0e8a37d24326cdfffb37562f3c5b3957b9c561" "835868dcd17131ba8b9619d14c67c127aa18b90a82438c8613586331129dda63" "613aedadd3b9e2554f39afe760708fc3285bf594f6447822dd29f947f0775d6c" "a491aba04e372176dd3f36f76243d0351b01dcdfea9a3b59c16945929459fbde" "028c226411a386abc7f7a0fba1a2ebfae5fe69e2a816f54898df41a6a3412bb5" "f490984d405f1a97418a92f478218b8e4bcc188cf353e5dd5d5acd2f8efd0790" "28a104f642d09d3e5c62ce3464ea2c143b9130167282ea97ddcc3607b381823f" "2f1518e906a8b60fac943d02ad415f1d8b3933a5a7f75e307e6e9a26ef5bf570" "2d035eb93f92384d11f18ed00930e5cc9964281915689fa035719cab71766a15" default))
  '(jdee-db-active-breakpoint-face-colors (cons "#1B2229" "#51afef"))
  '(jdee-db-requested-breakpoint-face-colors (cons "#1B2229" "#98be65"))
  '(jdee-db-spec-breakpoint-face-colors (cons "#1B2229" "#3f444a"))
@@ -49,7 +49,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(font-lock-comment-face ((t (:foreground "dim gray"))))
+ '(hl-line ((t (:extend t :background "#ccccc" :height 1.0))))
  '(ledger-font-payee-uncleared-face ((t (:foreground "white" :weight bold))))
  '(ledger-font-posting-account-face ((t (:foreground "gray"))))
- '(org-level-1 ((t (:foreground "dark gray" :weight bold))))
+ '(org-level-1 ((t (:family "mononoki" :foreground "#62b2af" :weight bold))))
  '(org-tag ((t (:height 80)))))
+(put 'narrow-to-page 'disabled nil)

@@ -1,10 +1,16 @@
 MenuBar=Disabled
 
 [$Version]
-update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[CompactMode]
+PreviewSize=256
 
 [DetailsMode]
 PreviewSize=16
+
+[FoldersPanel]
+LimitFoldersPanelToHome=false
 
 [General]
 GlobalViewProps=false
@@ -14,13 +20,17 @@ Version=202
 ViewPropsTimestamp=2022,8,22,17,7,24.423
 
 [IconsMode]
-PreviewSize=256
+PreviewSize=192
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
 [KPropertiesDialog]
+1920x1080 screen: Height=443
+1920x1080 screen: Width=368
+2 screens: Height=462
+2 screens: Width=363
 DP-0 DP-1 Height 1920x1080=435
 DP-0 DP-1 Height 1920x1080 DP-1=462
 DP-0 DP-1 Height 2560x1440=588
@@ -39,7 +49,6 @@ eDP-1 DP-1-1 Height 3840x2160=688
 eDP-1 DP-1-1 Width 3840x2160=516
 
 [MainWindow]
-MenuBar=Disabled
 ToolBarsMovable=Disabled
 
 [Open-with settings]
@@ -48,3 +57,7 @@ History=emacs,tenac,ten,ard,vlc,carla,chro,firef,tena,audaci,firefo,fire,view
 
 [PreviewSettings]
 Plugins=jpegthumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,appimagethumbnail,exrthumbnail,svgthumbnail,kraorathumbnail,ebookthumbnail,audiothumbnail,djvuthumbnail,cursorthumbnail,opendocumentthumbnail,comicbookthumbnail,directorythumbnail
+
+[ViewPropertiesDialog]
+2 screens: Height=442
+2 screens: Width=359

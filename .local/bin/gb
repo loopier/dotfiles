@@ -1,0 +1,3 @@
+#!/bin/sh
+
+setxkbmap gb extd -option caps:escape

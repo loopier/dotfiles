@@ -1,0 +1,18 @@
+#!/bin/sh
+
+TARGET=$1
+BASENAME=$(basename $TARGET)
+CLEANNAME=$(echo $BASENAME | sed 's/^+//')
+ARCHIVENAME="archive/comissioned/$CLEANNAME"
+DOCS=$TARGET/docs
+KRA=$TARGET/*-kra
+# echo $TARGET
+# echo $BASENAME
+# echo $CLEANNAME
+# echo $ARCHIVENAME
+# echo $DOCS
+# echo $KRA
+
+rm -r $DOCS;
+rm -r $KRA;
+mv $TARGET $ARCHIVENAME;

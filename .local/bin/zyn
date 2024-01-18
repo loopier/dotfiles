@@ -1,0 +1,3 @@
+#!/bin/sh
+
+alacritty -e zynaddsubfx -a -P 4001

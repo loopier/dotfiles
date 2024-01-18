@@ -1,6 +1,6 @@
 [Desktop Entry]
-Icon=.icon/16:9.png
+Icon=.icon/_16:9.png
 Name=16:9
 Type=Link
-URL[$e]=.source/16:9.kra
+URL[$e]=.source/_16:9.kra
 X-KDE-Hidden=false

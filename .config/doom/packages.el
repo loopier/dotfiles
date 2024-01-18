@@ -57,8 +57,9 @@
 			 :files ("gitignore-mode.el")))
 
 (package! awk-it)
-(package! buffer-move)
 (package! all-the-icons-dired)
+(package! buffer-move)
+(package! chuck-mode :recipe (:host github :repo "jintwo/chuck-mode"))
 (package! dired-single)
 (package! elpy)
 (package! festival)
@@ -74,12 +75,14 @@
 (package! poet-theme)
 (package! processing-mode)
 (package! olivetti)
+(package! org-tree-slide)
 (package! osc)
+;; (package! overtone)
+(package! platformio-mode)
 (package! sclang)
 (package! sclang-extensions)
 ;; (package! tidal)
 (package! toc-org)
 (package! w3m)
-
 ;; (package! cl-collider
 ;;   :recipe (:host github :repo "byulparan/cl-collider.git"))

@@ -7,4 +7,5 @@ then
     cp TEMPLATE FILENAME
 fi
 
-emacs -f "livecode" $FILENAME
+# emacs -f "livecode" $FILENAME
+emacs -f "livecode"

@@ -1,34 +1,12 @@
 includePaths:
-    -   /home/r/loopier/code/quarks/BenoitLib
-    -   /home/r/loopier/code/quarks/HyperDisCo
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/Bjorklund
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/Vowel
     -   /home/r/.local/share/SuperCollider/downloaded-quarks/Dirt-Samples
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/XML
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/wslib
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/BatLib
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/miSCellaneous_lib
-    -   /home/r/loopier/code/quarks/DrumPattern
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/CuePlayer
-    -   /home/r/loopier/code/quarks/Digitone
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/ChordSymbol
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/crucial-library
-    -   /home/r/loopier/code/quarks/LoopierExperimental
+    -   /home/r/.local/share/SuperCollider/downloaded-quarks/Bjorklund
+    -   /home/r/projects/animatron/animatron-sc
     -   /home/r/loopier/code/quarks/Tombola
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/Launchpad
-    -   /home/r/loopier/code/quarks/Trackatron
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/mi-UGens
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/Maths
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/MathLib
-    -   /home/r/loopier/code/quarks/IChing
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/Steno
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/SuperDirt
-    -   /home/r/work/ljudmila/Ziva
+    -   /home/r/.local/share/SuperCollider/downloaded-quarks/crucial-library
     -   /home/r/.local/share/SuperCollider/downloaded-quarks/ddwCommon
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/ddwGUIEnhancements
-    -   /home/r/.local/share/SuperCollider/downloaded-quarks/ddwMIDI
-    -   /home/r/.local/share/SuperCollider/Extensions/Ziva
-    -   /home/r/.local/share/SuperCollider/Extensions/Animatron
+    -   /home/r/loopier/Ziva
+    -   /home/r/.local/share/SuperCollider/downloaded-quarks/EQui
 excludePaths:
     []
 postInlineWarnings: false

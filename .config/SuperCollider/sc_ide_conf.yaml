@@ -4,8 +4,8 @@ IDE:
     disableBlinkingCursor: false
     font:
       antialias: 2
-      family: Noto Sans Mono
-      size: 13
+      family: mononoki
+      size: 10
     highlightBracketContents: true
     highlightCurrentLine: true
     inactiveEditorFadeAlpha: 64
@@ -103,7 +103,7 @@ IDE:
     useComboBoxWhenSplitting: false
   interpreter:
     autoStart: true
-    configFile: /home/r/.config/SuperCollider/sclang_conf_tutorial.yaml
+    configFile: /home/r/.dotfiles/.config/SuperCollider/sclang_conf.yaml
     runtimeDir: ""
     standalone: false
   mainWindow:
@@ -111,8 +111,8 @@ IDE:
       documents-dock: ""
       help-dock: ""
       post-dock: ""
-    geometry: AdnQywADAAAAAAd/AAAAFgAAC/4AAAQ2AAAHgAAAABcAAAv9AAAENQAAAAAAAAAAB4AAAAeAAAAAFwAAC/0AAAQ1
-    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF4A////AAAAAQAAAiQAAAPy/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFQAAAQYAAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAARwAAALrAAAATAD///8AAAJZAAAD8gAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+    geometry: AdnQywADAAAAAAqkAAAARAAADykAAAQJAAAKpwAAAEcAAA8mAAAEBgAAAAEAAAAAB4AAAAqnAAAARwAADyYAAAQG
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF4A////AAAAAQAAAeoAAAOT/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFQAAAg4AAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAiQAAAGEAAAATAD///8AAAKVAAADkwAAAAEAAAACAAAAAQAAAAL8AAAAAA==
   postWindow:
     lineWrap: true
     scrollback: 1000

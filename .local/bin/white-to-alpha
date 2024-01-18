@@ -1,0 +1,13 @@
+#!/bin/sh
+
+mkdir alpha
+imgs=$@
+
+for img in $imgs
+do
+    # convert $img -normalize -fuzz 20% -transparent white tmp.png
+    # convert tmp.png -channel-fx "red=>alpha, green=>alpha, blue=>alpha" -channel A -negate alpha/$img
+    convert $img -fuzz 50% -transparent white alpha/$img
+done
+
+# rm tmp.png

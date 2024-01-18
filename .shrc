@@ -19,15 +19,29 @@ if [[ -n $DISPLAY ]]; then
     export TERM=screen-256color
 fi
 
+# keyboard
 setxkbmap gb extd -option caps:escape
+
+# wlan
 if [[ $TTY == "/dev/tty1" ]]; then
     echo "networks"
     ip link | awk -F: '/: \w+:/ {print $2}'
 fi
 
+# kernel upgrade reboot
+# needupgrade=$(checkupdates | grep linux)
+# if [[ -z $needupgrade ]]; then
+#     echo "no kernel upgrade"
+# else
+#     echo "need kernel upgrade"
+# fi
+
 # export PATH="${PATH}:$HOME/.local/bin"
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$PATH:$HOME/.local/bin"
+fi
+if [ -d "$HOME/.local/opt" ] ; then
+    PATH="$PATH:$HOME/.local/opt"
 fi
 
 alias p='pwd'

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=.icon/16:9framed.png
+Name=16:9 framed
+Type=Link
+URL[$e]=.source/16:9framed.kra
+X-KDE-Hidden=false

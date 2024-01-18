@@ -1,0 +1,5 @@
+#!/bin/sh
+
+chromium "localhost:5000" &
+cd ~/P5LIVE
+npm start

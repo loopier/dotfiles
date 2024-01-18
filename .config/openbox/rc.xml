@@ -15,7 +15,7 @@
     <focusLast>yes</focusLast>
     <!-- focus the last used window when changing desktops, instead of the one
        under the mouse pointer. when followMouse is enabled -->
-    <underMouse>no</underMouse>
+    <underMouse>yes</underMouse>
     <!-- move focus under the mouse, even when the mouse is not moving -->
     <focusDelay>200</focusDelay>
     <!-- when followMouse is enabled, the mouse must be inside the window for
@@ -433,6 +433,24 @@
         <command>rofi -show</command>
       </action>
     </keybind>
+    <keybind key="W-w">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi</name>
+        </startupnotify>
+        <command>rofi -show window</command>
+      </action>
+    </keybind>
+    <keybind key="W-r">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi</name>
+        </startupnotify>
+        <command>rofi -show run</command>
+      </action>
+    </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <startupnotify>
@@ -476,6 +494,15 @@
           <name>livecode</name>
         </startupnotify>
         <command>livecode</command>
+      </action>
+    </keybind>
+    <keybind key="W-e">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>emacs</name>
+        </startupnotify>
+        <command>emacs</command>
       </action>
     </keybind>
   </keyboard>

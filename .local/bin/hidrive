@@ -5,7 +5,7 @@ function help() {
    echo ""
    echo "options:"
    echo "-h     Print this help"
-   echo "-u     Update urgency (low, normal, critical)"
+   echo "-a     Update all directories listed in .config/hidrive.conf"
    echo ""
    echo "<push> will rclone-sync 'dir' from local to remote."
    echo "<pull> will rclone-copy 'dir' from remote to local."
@@ -16,13 +16,13 @@ function help() {
 
 # urgency=NULL
 
-while getopts ":hu:" option; do
+while getopts ":ha" option; do
     case $option in
         h) help
            exit;;
-        # u) urgency=$OPTARG
-        #    shift 2
-        #    ;;
+        a) ALL=true
+           shift 2
+           ;;
         \?) echo "Error: invalid option: $OPTARG"
             exit;;
     esac
@@ -34,21 +34,34 @@ CMD=$1
 DIR=$2
 
 if [ -z $DIR ]; then
-    DIR=$PWD
+    DIR=$all
 fi
 
-REMOTE=$(echo "${DIR/$HOME/$remote_root}")
+LOCAL=$DIR
+# REMOTE=$(echo "${DIR/$HOME/$remote_root}")
+REMOTE=$(echo "${DIR/$HOME/}")
+REMOTE=$hidrive_remote_root/$DIR
+
+if [ $ALL ]; then
+    echo "TODO: update all"
+fi
 
 if [ $CMD == "push" ]; then
     CMD=sync
-    FROM=$DIR
+    FROM=$LOCAL
     TO=$REMOTE
 elif [ $CMD == "pull" ]; then
     CMD=copy
     FROM=$REMOTE
-    TO=$DIR
+    TO=$LOCAL
 else
     help
+    exit 1
+fi
+
+if [ $CMD == "sync" ] && [ $FROM == $HOME ]; then
+    echo "You tried to push your home folder."
+    echo "Please provide a specific path."
     exit 1
 fi
 
