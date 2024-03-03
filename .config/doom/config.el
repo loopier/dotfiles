@@ -28,6 +28,10 @@
 ;;                  :family "Iosevka Medium Extended"
 ;;                  ;; :weight 'semi-light
 ;;                  :size 12))
+; (setq doom-font (font-spec
+;                  :family "firacode"
+;                  ;; :weight 'semi-light
+;                  :size 12))
 (setq doom-font (font-spec
                  :family "mononoki"
                  ;; :weight 'semi-light
@@ -71,8 +75,6 @@
 (map! (:map peep-dired-mode-map :n "j" 'peep-dired-next-file))
 (map! (:map peep-dired-mode-map :n "k" 'peep-dired-prev-file))
 (add-hook 'peep-dired-hook 'evil-normalize-keymaps)
-
-(map! (:map sclang-mode-map :localleader :n "s s" 'sclang-start))
 
 ;; org
 ;; new
@@ -136,6 +138,8 @@
 (setq org-superstar-special-todo-items t)
 (add-hook 'org-mode-hook (lambda ()
                         (org-superstar-mode 1)))
+
+(map! (:map org-mode-map :localleader :n "m" 'org-ctrl-c-ctrl-c))
 
 ;; ;; Here are some additional functions/macros that could help you configure Doom:
 ;; ;;
@@ -260,14 +264,13 @@
 
 ;; livecode
 ;; experimental livecoding helper
-(load "/home/r/loopier/code/emacs-extended/livecode.el")
+;; (load "/home/r/loopier/code/emacs-extended/livecode.el")
+(load "~/loopier/Ziva/emacs/ziva.el")
 
 (add-to-list 'load-path "/home/r/loopier/code/ob-sclang/")
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((sclang . t)))
-
-(map! (:map org-mode-map :localleader :n "m" 'org-ctrl-c-ctrl-c))
 
 (defun livecode ()
   ;; (split-window-right)
@@ -287,6 +290,7 @@
 ;; (advice-add 'sclang-show-post-buffer :after #'sclang-move-post-left)
 
 ;; (add-to-list 'sclang-mode-alist '("\\.scd\\.sc\\" . sclang-mode))
+
 (map! :leader :n "o s" 'sclang-start :desc "Open Supercollider") ;; global under 'SPC-o' menu
 (map! (:map sclang-mode-map :localleader :n "s s" 'sclang-start))
 (map! (:map sclang-mode-map :localleader :n "s q" 'sclang-stop))

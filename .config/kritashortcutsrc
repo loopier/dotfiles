@@ -6,10 +6,9 @@ KisToolSelectContiguous=Shift+W
 KisToolTransform=T
 KritaTransform/KisToolMove=none
 RenameFile[$d]
-activate_preset_0=W
-activate_preset_1=R
 add_duplicate_frame=Ctrl+Right
 duplicatelayer=none
+execute_script_1=Ctrl+!
 insert_keyframe_right=Shift+K
 select_all=none
 set_stabilizer_brush_smoothing=Shift+S

@@ -4,7 +4,7 @@ MenuBar=Disabled
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
 
 [CompactMode]
-PreviewSize=256
+PreviewSize=144
 
 [DetailsMode]
 PreviewSize=16
@@ -29,8 +29,8 @@ Places Icons Static Size=22
 [KPropertiesDialog]
 1920x1080 screen: Height=443
 1920x1080 screen: Width=368
-2 screens: Height=462
-2 screens: Width=363
+2 screens: Height=588
+2 screens: Width=387
 DP-0 DP-1 Height 1920x1080=435
 DP-0 DP-1 Height 1920x1080 DP-1=462
 DP-0 DP-1 Height 2560x1440=588
@@ -56,7 +56,10 @@ CompletionMode=1
 History=emacs,tenac,ten,ard,vlc,carla,chro,firef,tena,audaci,firefo,fire,view
 
 [PreviewSettings]
-Plugins=jpegthumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,appimagethumbnail,exrthumbnail,svgthumbnail,kraorathumbnail,ebookthumbnail,audiothumbnail,djvuthumbnail,cursorthumbnail,opendocumentthumbnail,comicbookthumbnail,directorythumbnail
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,textthumbnail
+
+[Search]
+Location=Everywhere
 
 [ViewPropertiesDialog]
 2 screens: Height=442

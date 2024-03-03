@@ -3,40 +3,9 @@
 # --
 Ziva.boot;
 Ziva.loadSamples("~/loopier/samples");
+Ziva.listSamples;
 Ziva.synths;
 Ziva.sounds;
 Ziva.fx;
-(
-Ziva.track(0, \chorus2, \reverbS, \compress);
-Ziva.track(1, \chorus2, \distort, \reverbS, \compress);
-Ziva.track(2, \chorus, \distort, \reverbL, \compress);
-Ziva.track(3, \delay, \reverbL);
-TempoClock.default.tempo = 144/60;
-TempoClock.default.tempo = 64/60;
-~lfo0 = Ziva.lfo(0, \sine, 0.1, 440, 8000);
-~lfo1 = Ziva.lfo(1, \sine, 0.02, 0.1, 2.0);
-~sc = Pbind(\scale, Scale.harmonicMinor, \root, 2);
-~o = Psynth(\organ) <> ~sc;
-~a = Psynth(\acid).cutoff(~lfo0) <> ~sc;
-~p = Psynth(\piano) <> ~sc;
-~i = Psynth(\sine).rel(0) <> ~sc;
-~u = Psynth(\pulse).rel(0) <> ~sc;
-~z = Psynth(\saw).rel(0) <> ~sc;
-~t = Psynth(\brass).rel(0) <> ~sc;
-~c = Psynth(\clarinet).rel(0) <> ~sc;
-~b = Psynth(\kwbass).oct(3) <> ~sc;
-~y = Psynth(\kwpoly) <> ~sc;
-~w = Psynth(\white).rel(0);
-~d = Psample(\delia);
-~k = Psample(\trikick);
-~n = Psample(\trisn);
-~h = Psample(\trihh);
-~kika = Psample(\trikick).f.r(( (Bjorklund(3,8).sort.reverse!2).flat++Bjorklund(6,8).sort.reverse ).replace(0,\r).pseq);
-
-h = Ziva.harmony([0].pseq, [1].pseq);
-)
-(
-[
-	nil
-].ziva;
-)
+Ziva.bpm;
+Ziva.scale = \harmonicMinor;

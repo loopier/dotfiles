@@ -10,17 +10,17 @@
     <focusNew>yes</focusNew>
     <!-- always try to focus new windows when they appear. other rules do
        apply -->
-    <followMouse>yes</followMouse>
+    <followMouse>no</followMouse>
     <!-- move focus to a window when you move the mouse into it -->
     <focusLast>yes</focusLast>
     <!-- focus the last used window when changing desktops, instead of the one
        under the mouse pointer. when followMouse is enabled -->
-    <underMouse>yes</underMouse>
+    <underMouse>no</underMouse>
     <!-- move focus under the mouse, even when the mouse is not moving -->
     <focusDelay>200</focusDelay>
     <!-- when followMouse is enabled, the mouse must be inside the window for
        this many milliseconds (1000 = 1 sec) before moving focus to it -->
-    <raiseOnFocus>no</raiseOnFocus>
+    <raiseOnFocus>yes</raiseOnFocus>
     <!-- when followMouse is enabled, and a window is given focus by moving the
        mouse into it, also raise the window -->
   </focus>
@@ -125,15 +125,15 @@
     <names>
       <!-- set names up here if you want to, like this:
     -->
-    <name>1</name>
-    <name>2</name>
-    <name>3</name>
-    <name>4</name>
-    <name>5</name>
-    <name>6</name>
-    <name>7</name>
-    <name>8</name>
-    <name>9</name>
+      <name>1</name>
+      <name>2</name>
+      <name>3</name>
+      <name>4</name>
+      <name>5</name>
+      <name>6</name>
+      <name>7</name>
+      <name>8</name>
+      <name>9</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -415,12 +415,12 @@
     <!--   </action> -->
     <!-- </keybind> -->
     <keybind key="W-m">
-      <action name="GrowToFill"></action>
+      <action name="GrowToFill"/>
     </keybind>
     <!-- Keybindings to quit openbox -->
     <keybind key="W-S-F12">
       <action name="Exit">
-          <prompt>yes</prompt>
+        <prompt>yes</prompt>
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
@@ -458,6 +458,15 @@
           <name>alacritty</name>
         </startupnotify>
         <command>alacritty</command>
+      </action>
+    </keybind>
+    <keybind key="W-v">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>vterm</name>
+        </startupnotify>
+        <command>emacs -f 'vterm'</command>
       </action>
     </keybind>
     <keybind key="W-i">
@@ -960,18 +969,18 @@
 
   # end of the example
 -->
-      <application class="*">
-          <decor>no</decor>
-      </application>
-      <application class="Emacs">
-        <position>
-          <x>0</x>
-          <y>0</y>
-        </position>
-        <size>
-          <width>2/3</width>
-          <height>1/1</height>
-        </size>
-      </application>
+    <application class="*">
+      <decor>no</decor>
+    </application>
+    <application class="Emacs">
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+      <size>
+        <width>2/3</width>
+        <height>1/1</height>
+      </size>
+    </application>
   </applications>
 </openbox_config>
